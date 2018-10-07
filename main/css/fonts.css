@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/raleway/Raleway-ExtraBold.eot');
+  src: url('../fonts/raleway/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/raleway/Raleway-Regular.woff2') format('woff2'),
+      url('../fonts/raleway/Raleway-Regular.woff') format('woff'),
+      url('../fonts/raleway/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/raleway/Raleway-ExtraBold.eot');
+  src: url('../fonts/raleway/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/raleway/Raleway-ExtraBold.woff2') format('woff2'),
+      url('../fonts/raleway/Raleway-ExtraBold.woff') format('woff'),
+      url('../fonts/raleway/Raleway-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/raleway/Raleway-SemiBold.eot');
+  src: url('../fonts/raleway/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/raleway/Raleway-SemiBold.woff2') format('woff2'),
+      url('../fonts/raleway/Raleway-SemiBold.woff') format('woff'),
+      url('../fonts/raleway/Raleway-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../fonts/CenturyGothic/CenturyGothic-Bold.eot');
+  src: url('../fonts/CenturyGothic/CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/CenturyGothic/CenturyGothic-Bold.woff2') format('woff2'),
+      url('../fonts/CenturyGothic/CenturyGothic-Bold.woff') format('woff'),
+      url('../fonts/CenturyGothic/CenturyGothic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MyriadPro/MyriadPro-Regular.woff2') format('woff2'),
+      url('../fonts/MyriadPro/MyriadPro-Regular.woff') format('woff'),
+      url('../fonts/MyriadPro/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro/MyriadPro-Semibold.eot');
+  src: url('../fonts/MyriadPro/MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MyriadPro/MyriadPro-Semibold.woff2') format('woff2'),
+      url('../fonts/MyriadPro/MyriadPro-Semibold.woff') format('woff'),
+      url('../fonts/MyriadPro/MyriadPro-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro/MyriadPro-Bold.eot');
+  src: url('../fonts/MyriadPro/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/MyriadPro/MyriadPro-Bold.woff2') format('woff2'),
+      url('../fonts/MyriadPro/MyriadPro-Bold.woff') format('woff'),
+      url('../fonts/MyriadPro/MyriadPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
