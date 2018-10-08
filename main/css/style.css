@@ -37,18 +37,24 @@ body{
   border: solid rgb(238, 34, 29);
   transition: .3s;
 }
-.contact{
-  border: solid 1px red;
+.contact_wrap{
+  display: flex;
+  align-items: flex-start;
 }
 .phone_and_btn span{
-  margin-right: 35px;
   font-family:'Myriad Pro';
   font-weight: bold;
+}
+.contact{
+  margin-right: 25px;
+}
+.contact img{
+  width: 13px;
 }
 .contact > #main_addres{
   font-family:'Myriad Pro';
-  font-weight: bold;
-  padding-bottom: 10px;
+  font-weight: 600;
+  padding-bottom: 5px;
 }
 .contact span{
   font-family: 'Myriad Pro';
@@ -70,7 +76,7 @@ body{
 }
 .logo span{
   display: inline-block;
-  margin-left: 35px;
+  margin-left: 30px;
 }
 .flex{
   display: flex;
