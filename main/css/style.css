@@ -426,6 +426,7 @@ nav{
   position: relative;
   border-radius: 100%;  
   z-index: 4;
+  cursor: pointer;
 }
 .dot::after{
   content: "";
