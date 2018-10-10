@@ -4,8 +4,7 @@ let slideIndex = 1,
     prev = document.querySelector('.prev'),
     next = document.querySelector('.next'),
     dotsWrap = document.querySelector('.slider-dots'),
-    dots = document.getElementsByClassName('dot'),
-    intervalTime = 3500;
+    dots = document.getElementsByClassName('dot');
 
 function showSlides(index) {
     if (index > slides.length) {
@@ -23,7 +22,9 @@ function showSlides(index) {
 
     slides[slideIndex - 1].style.display = 'block';
     dots[slideIndex - 1].classList.add('dot-active');
+
 }
+
 showSlides(slideIndex);
 
 function moveSlide(n) {
@@ -34,11 +35,11 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
-prev.addEventListener('click', () => {
+prev.addEventListener('click', function () {
     moveSlide(-1);
 });
 
-next.addEventListener('click', () => {
+next.addEventListener('click', function () {
     moveSlide(1);
 });
 
@@ -50,6 +51,7 @@ dotsWrap.addEventListener('click', function (event) {
     }
 });
 
+<<<<<<< HEAD:main/js/main.js
 let sliderInterval = setInterval(() => {moveSlide(1)}, intervalTime);
 
 <<<<<<< HEAD:main/script.js
@@ -61,9 +63,10 @@ wrap.addEventListener('mouseover', onMouseOver);
 =======
 /////////// МОДАЛЬНОЕ ОКНО ////////////
 >>>>>>> master:main/js/main.js
+=======
+setInterval(function (){
+    moveSlide(1);
+}, 5000);
 
-wrap.addEventListener('mouseleave', () => {
-    wrap.removeEventListener('mouseover', onMouseOver);
-    sliderInterval = setInterval(() => moveSlide(1), intervalTime);
-    wrap.addEventListener('mouseover', onMouseOver);
-});
+>>>>>>> parent of 848c783... Merge branch 'newbranch' of github.com:ArturWk4/Colorwave into newbranch:main/script.js
+
