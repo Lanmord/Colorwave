@@ -457,6 +457,24 @@ nav{
   top: -5px;
   left: -5px;
 }
+.dot-goods-active {
+  background-color: #a0a0a0;
+  border-color: #9c9c9c;
+  width: 15px;
+  height: 15px;
+  opacity: .6;
+  top: -5px;
+  left: -5px;
+}
+.dot-sale-active {
+  background-color: #a0a0a0;
+  border-color: #9c9c9c;
+  width: 15px;
+  height: 15px;
+  opacity: .6;
+  top: -5px;
+  left: -5px;
+}
 
 .prev,.next{
   display: block;
@@ -801,4 +819,22 @@ img.padding{
 .pod_footer img{
   height: 100px;
   width: 100px;
+}
+
+.best-goods-item {
+  background-color: green;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 150px;
+  text-align: center;
+}
+
+.sale-item {
+  background-color: darkgrey;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 150px;
+  text-align: center;
 }
