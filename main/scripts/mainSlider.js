@@ -6,7 +6,7 @@ let slideIndex = 1,
     next = document.querySelector('.next'),
     dotsWrap = document.querySelector('.slider-dots'),
     dots = document.getElementsByClassName('dot'),
-    intervalTime = 3300;
+    intervalTime = 5300;
 
 function showSlides(index) {
     if (index > slides.length) {
