@@ -784,7 +784,6 @@ img.padding{
   background-size: cover;
   width: 35px;
   height: 35px;
-  cursor: pointer;
   transition: .3s;
 }
 .arrow_top:hover{
@@ -820,6 +819,7 @@ img.padding{
   height: 100px;
   width: 100px;
 }
+<<<<<<< HEAD
 
 .best-goods-item {
   background-color: green;
@@ -838,3 +838,5 @@ img.padding{
   font-size: 150px;
   text-align: center;
 }
+=======
+>>>>>>> master

@@ -52,11 +52,15 @@ dotsWrap.addEventListener('click', function (event) {
 
 let sliderInterval = setInterval(() => {moveSlide(1)}, intervalTime);
 
+<<<<<<< HEAD:main/script.js
 function onMouseOver() {
     clearInterval(sliderInterval);
 }
 
 wrap.addEventListener('mouseover', onMouseOver);
+=======
+/////////// МОДАЛЬНОЕ ОКНО ////////////
+>>>>>>> master:main/js/main.js
 
 wrap.addEventListener('mouseleave', () => {
     wrap.removeEventListener('mouseover', onMouseOver);
