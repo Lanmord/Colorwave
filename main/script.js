@@ -4,7 +4,8 @@ let slideIndex = 1,
     prev = document.querySelector('.prev'),
     next = document.querySelector('.next'),
     dotsWrap = document.querySelector('.slider-dots'),
-    dots = document.getElementsByClassName('dot');
+    dots = document.getElementsByClassName('dot'),
+    intervalTime = 3500;
 
 function showSlides(index) {
     if (index > slides.length) {
@@ -22,9 +23,7 @@ function showSlides(index) {
 
     slides[slideIndex - 1].style.display = 'block';
     dots[slideIndex - 1].classList.add('dot-active');
-
 }
-
 showSlides(slideIndex);
 
 function moveSlide(n) {
@@ -35,11 +34,11 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
-prev.addEventListener('click', function () {
+prev.addEventListener('click', () => {
     moveSlide(-1);
 });
 
-next.addEventListener('click', function () {
+next.addEventListener('click', () => {
     moveSlide(1);
 });
 
@@ -51,8 +50,16 @@ dotsWrap.addEventListener('click', function (event) {
     }
 });
 
-setInterval(function (){
-    moveSlide(1);
-}, 5000);
+let sliderInterval = setInterval(() => {moveSlide(1)}, intervalTime);
 
+function onMouseOver() {
+    clearInterval(sliderInterval);
+}
 
+wrap.addEventListener('mouseover', onMouseOver);
+
+wrap.addEventListener('mouseleave', () => {
+    wrap.removeEventListener('mouseover', onMouseOver);
+    sliderInterval = setInterval(() => moveSlide(1), intervalTime);
+    wrap.addEventListener('mouseover', onMouseOver);
+});
