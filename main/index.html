@@ -66,23 +66,24 @@
 
       </div>
     </nav>
-
-    <div class="modal-wrap">
-      <div class="red_tape">
-         <h2>Консультация</h2>
-       </div>
-     <div class="modal-content">
-       <span class="closeBtn"></span>
-       <span class="info-modal">Здесь вы можете нам сообщить ваши вопросы</span> 
-       <textarea name="text" maxlength="380"  required rows="8" wrap="hard" placeholder="Здраствуйте, меня зовут..."></textarea>
-       <input maxlength="30" type="text" required placeholder="Имя:" class="form-name">
-       <div class="places">
-         <input type="email" maxlength="30" required placeholder="Email:" class="form-mail">
-         <input type="text" class="form-phone" placeholder="+375 (    )       -     -" required id="phone-place">
-       </div>
-       <a href="#" class="modal_btn">Отправить</a>
-     </div>
-     </div>
+<div id="modal-panel" class="modal">
+  <div class="modal-wrap">
+    <div class="red_tape">
+      <h2>Консультация</h2>
+    </div>
+    <div class="modal-content">
+      <span class="closeBtn"></span>
+      <span class="info-modal">Здесь вы можете нам сообщить ваши вопросы</span>
+      <textarea name="text" maxlength="380" required rows="8" wrap="hard" placeholder="Здраствуйте, меня зовут..."></textarea>
+      <input maxlength="30" type="text" required placeholder="Имя:" class="form-name">
+      <div class="places">
+        <input type="email" maxlength="30" required placeholder="Email:" class="form-mail">
+        <input type="text" class="form-phone" placeholder="+375 (    )       -     -" required id="phone-place">
+      </div>
+      <a href="#" class="modal_btn">Отправить</a>
+    </div>
+  </div>
+</div>
      
     <section>
       <div class="slider_wrap flex">
@@ -393,7 +394,9 @@
   <script src="scripts/main.js"></script>
   <script src="scripts/jquery.maskedinput.min.js"></script>
   <script>
-    
+    jQuery(function($){
+     $("#phone-place").mask("+375 (99) 999-99-99");
+  });
   </script>
 </body>
 
