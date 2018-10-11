@@ -3,6 +3,9 @@
   text-decoration: none;
   list-style: none;
 }
+a{
+  color:white;
+}
 body{
   margin: 0;
   padding: 0;
@@ -838,3 +841,110 @@ img.padding{
   font-size: 150px;
   text-align: center;
 }
+/* Модальное окно */
+.modal-wrap {
+	padding: 0 50px;
+	position: relative;
+	margin: 0 auto;
+	max-width: 600px;
+	border: solid 1px red;
+}
+.modal-content {
+	position: relative;
+	background-color: #2D2D2D;
+	padding: 50px;
+	padding-top: 140px;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+	animation-name: modalopen;
+	animation-duration: 1s;
+	z-index: 2;
+	color: white;
+	text-align: center;
+}
+.closeBtn {
+	background-color: rgb(250, 16, 12);
+	font-size: 30px;
+	display: block;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.info-modal {
+	font-size: 20px;
+	display: block;
+	color: white;
+}
+.red_tape {
+	z-index: 10;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(250, 16, 12);
+	text-align: center;
+	padding: 10px;
+}
+.red_tape > h2 {
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-transform: uppercase;
+}
+.form-phone {
+	outline: none;
+	width: 180px;
+	background-color: #2D2D2D;
+	border: 0;
+	border-bottom: 1px solid #5C5C5C;
+	margin-top: 30px;
+	color: white;
+}
+.form-mail {
+	width: 180px;
+	color: white;
+	margin-top: 30px;
+	outline: none;
+	background-color: #2D2D2D;
+	border: 0;
+	border-bottom: 1px solid #5C5C5C;
+}
+.places{
+/*	border: solid 1px red;*/
+	display: flex;
+	justify-content: space-between;
+}
+.form-name { 	
+	color: white;
+	margin-top: 25px;
+	width: 100%;
+	outline: none;
+	background-color: #2D2D2D;
+	border: 0;
+	border-bottom: 1px solid #5C5C5C;
+}
+textarea {
+	margin-top: 35px;
+	width: 100%;
+	font-size: 15px;
+	resize: none;
+	outline: none;
+	border: 0;
+	background-attachment: local;
+	background-image: linear-gradient(to right, #2D2D2D 0px, transparent 0px), linear-gradient(to left, #2D2D2D 0px, transparent 10px), repeating-linear-gradient(#2D2D2D, #2D2D2D 26px, #5C5C5C 26px, #5C5C5C 27px, #2D2D2D 27px);
+	line-height: 27px;
+	padding: 3px 0px;
+	color: white;
+}
+a.modal_btn{
+  fs
+	text-transform: uppercase;
+	display: inline-block;
+	margin-top: 45px;
+	padding: 13px 60px;
+	background-color: rgb(250, 16, 12);
+}
+
+/* конец стилей модального окна */
