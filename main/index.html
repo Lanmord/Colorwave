@@ -291,7 +291,6 @@
       <span>news</span>
     </div>
   </section>
-  </div>
   <section class="flex">
     <div class="brands flex">
       <ul class="brands_inner">
@@ -375,7 +374,7 @@
       </div>
       <a class="col3">
         <a href="#" class="arrow_top"></a>
-    </div>
+      </a>
     </div>
   </section>
   <section class="flex color1">
@@ -387,16 +386,50 @@
       <img src="img/logo_grey.png" alt="logo colorwave">
     </div>
   </section>
-  </div>
   <script src="scripts/mainSlider.js"></script>
   <script src="scripts/goodsSlider.js"></script>
   <script src="scripts/saleSlider.js"></script>
   <script src="scripts/main.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="scripts/jquery.maskedinput.min.js"></script>
   <script>
-    jQuery(function($){
+    // МОДАЛЬНОЕ ОКНО - ЭТО БЫЛО СЛОЖНО //
+  jQuery(function($){
      $("#phone-place").mask("+375 (99) 999-99-99");
   });
+  
+$("#feedback, .closeBtn").click(function() {
+  
+if ($(".modal:visible").size() > 0) {
+
+    $("#modal-panel").css("display","none");
+    $("html").css("overflow-y","scroll");
+
+} else {
+
+    $(".modal").css("display","block");
+    $("html").css("overflow-y","hidden");
+
+}
+});
+$(".modal").mouseup(function (e) {
+    var container = $(".modal-wrap");
+    if (container.has(e.target).length === 0) {
+
+      if ($(".modal:visible").size() > 0) {
+
+        $("#modal-panel").css("display", "none");
+        $("html").css("overflow-y", "scroll");
+
+      } else {
+
+        $(".modal").css("display", "block");
+        $("html").css("overflow-y", "hidden");
+
+      }
+    }
+});
+// НО Я СПРАВИЛСЯ)) //
   </script>
 </body>
 
