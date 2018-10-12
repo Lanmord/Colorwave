@@ -857,11 +857,10 @@ img.padding{
   background-color: rgba(0,0,0,0.5);
 }
 .modal-wrap {
-	padding: 0 50px;
+	padding: 0 30px;
 	position: relative;
 	margin: 3% auto;
-	max-width: 600px;
-	border: solid 1px red;
+  max-width: 580px;
 }
 .modal-content {
 	position: relative;
@@ -876,17 +875,31 @@ img.padding{
 	text-align: center;
 }
 .closeBtn {
-	background-color: rgb(250, 16, 12);
-	font-size: 30px;
 	display: block;
 	height: 50px;
 	width: 50px;
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 5px;
+  right: 5px;
+  transform: rotate(0deg);
+  transition: .3s;
+}
+.closeBtn:hover{
+  transform: rotate(90deg);
+}
+.lnr-cross{
+  font-size: 5em;
+  color:white;
+  transition: .2s;
+}
+.lnr-cross:hover{
+  color:red;
+  cursor:pointer;
 }
 .info-modal {
-	font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: normal;
+	font-size: 1.7em;
 	display: block;
 	color: white;
 }
@@ -899,9 +912,11 @@ img.padding{
 	height: 50px;
 	background-color: rgb(250, 16, 12);
 	text-align: center;
-	padding: 10px;
 }
 .red_tape > h2 {
+  font-family: 'Myriad Pro';
+  font-weight: 600;
+  font-size: 2.8em;
 	margin: 0;
 	padding: 0;
 	color: white;
@@ -953,11 +968,17 @@ textarea {
 	color: white;
 }
 a.modal_btn{
+  font-family: 'Myriad Pro';
+  font-weight:600;
+  font-size: 1.6em;
 	text-transform: uppercase;
 	display: inline-block;
 	margin-top: 45px;
 	padding: 13px 60px;
 	background-color: rgb(250, 16, 12);
+}
+a.modal_btn:hover{
+  background-color: rgb(168, 10, 7);
 }
 
 /* конец стилей модального окна */
