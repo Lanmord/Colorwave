@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/animate.css">
   <title>Main</title>
 </head>
 
@@ -66,25 +67,36 @@
 
       </div>
     </nav>
+<!-- МОДАЛЬНО ОКНО -->
 <div id="modal-panel" class="modal">
-  <div class="modal-wrap">
+  <div class="modal-wrap wow bounceInRight" data-wow-duration="0.5s">
     <div class="red_tape flex">
       <h2>Консультация</h2>
     </div>
     <div class="modal-content">
       <span class="closeBtn lnr lnr-cross"></span>
       <span class="info-modal">Здесь вы можете нам сообщить ваши вопросы</span>
-      <textarea name="text" maxlength="380" required rows="8" wrap="hard" placeholder="Здраствуйте, меня зовут..."></textarea>
-      <input maxlength="30" type="text" required placeholder="Имя:" class="form-name">
-      <div class="places">
-        <input type="email" maxlength="30" required placeholder="Email:" class="form-mail">
-        <input type="text" class="form-phone" placeholder="+375 (    )       -     -" required id="phone-place">
-      </div>
-      <a href="#" class="modal_btn">Отправить</a>
+      <form class="form" id="form" name="form">
+        <textarea name="text" maxlength="380" required rows="8" wrap="hard" placeholder="Здраствуйте, меня зовут..."></textarea>
+        <input maxlength="30" type="text" name="name" required placeholder="Имя:" class="form-name">
+        <div class="places">
+          <input type="email" maxlength="30" required placeholder="Email:" class="form-mail" name="email">
+          <input type="text" class="form-phone" placeholder="+375 (    )       -     -" required id="phone-place" name="phone">
+        </div>
+        <a href="#" class="modal_btn" type="submit">Отправить</a>
+      </form>
     </div>
   </div>
 </div>
-     
+
+<div class="overlay js-overlay-thank-you">
+    <div class="popup js-thank-you">
+      <h2>Спасибо за заявку</h2>
+      <div class="close-popup js-close-thank-you"></div>
+    </div>
+  </div>
+
+   <!-- КОНЕЦ МОДАЛЬНОГО ОКНА -->
     <section>
       <div class="slider_wrap flex">
 
@@ -389,9 +401,13 @@
   <script src="scripts/mainSlider.js"></script>
   <script src="scripts/goodsSlider.js"></script>
   <script src="scripts/saleSlider.js"></script>
-  <script src="scripts/main.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="scripts/main.js"></script>
   <script src="scripts/jquery.maskedinput.min.js"></script>
+  <script src="scripts/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script>
     // МОДАЛЬНОЕ ОКНО - ЭТО БЫЛО СЛОЖНО //
   jQuery(function($){
@@ -425,6 +441,7 @@ $(".modal").mouseup(function (e) {
 
         $(".modal").css("display", "block");
         $("html").css("overflow-y", "hidden");
+        
 
       }
     }
