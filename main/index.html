@@ -77,13 +77,13 @@
       <span class="closeBtn lnr lnr-cross"></span>
       <span class="info-modal">Здесь вы можете нам сообщить ваши вопросы</span>
       <form class="form" id="form" name="form">
-        <textarea name="text" maxlength="380" required rows="8" wrap="hard" placeholder="Здраствуйте, меня зовут..."></textarea>
+        <textarea name="text" maxlength="380" required rows="8" wrap="hard" placeholder="Здраствуйте, меня зовут..." name="message"></textarea>
         <input maxlength="30" type="text" name="name" required placeholder="Имя:" class="form-name">
         <div class="places">
-          <input type="email" maxlength="30" required placeholder="Email:" class="form-mail" name="email">
+          <input name="email" type="email" maxlength="30" required placeholder="Email:" class="form-mail" name="email">
           <input type="text" class="form-phone" placeholder="+375 (    )       -     -" required id="phone-place" name="phone">
         </div>
-        <a href="#" class="modal_btn" type="submit">Отправить</a>
+        <button class="modal_btn" type="submit">Отправить</button>
       </form>
     </div>
   </div>
@@ -384,9 +384,9 @@
           <a href="#"><i class="fab fa-telegram-plane"></i></a>
         </div>
       </div>
-      <a class="col3">
+      <div class="col3">
         <a href="#" class="arrow_top"></a>
-      </a>
+      </div>
     </div>
   </section>
   <section class="flex color1">
@@ -429,7 +429,7 @@ if ($(".modal:visible").size() > 0) {
 }
 });
 $(".modal").mouseup(function (e) {
-    var container = $(".modal-wrap");
+    var container = $(".modal");
     if (container.has(e.target).length === 0) {
 
       if ($(".modal:visible").size() > 0) {

@@ -1,6 +1,11 @@
 html {
   overflow-y: scroll;
 }
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
 *{
   box-sizing: border-box;
   text-decoration: none;
@@ -719,6 +724,7 @@ nav{
   flex-direction: column;
   align-items: flex-start;
   margin-right: 50px;
+  border:solid 1px red;
 }
 .footer a{
   font-family: 'Myriad Pro';
@@ -753,6 +759,7 @@ nav{
   display: flex;
   flex-direction: column;
   margin-right: 20px;
+  border:solid 1px red;
 }
 .col2 a{
   font-family: 'Myriad Pro';
@@ -786,14 +793,18 @@ img.padding{
   margin: 25px 8px 0 0;
   font-size: 2.7em;
 }
-.arrow_top{
+.col3{
+  border:solid 1px red;
+}
+a.arrow_top{
   background-image: url(../img/arrow_top.png);
   background-size: cover;
   width: 35px;
   height: 35px;
   transition: .3s;
+  display:block;
 }
-.arrow_top:hover{
+a.arrow_top:hover{
   background-image: url(../img/arrow_top_hover.png);
 }
 /* .col1,.col2,.col3{
@@ -962,7 +973,9 @@ textarea {
 	padding: 3px 0px;
 	color: white;
 }
-a.modal_btn{
+.modal_btn{
+  color:white;
+  border: 0;
   font-family: 'Myriad Pro';
   font-weight:600;
   font-size: 1.6em;
@@ -972,8 +985,9 @@ a.modal_btn{
 	padding: 13px 60px;
 	background-color: rgb(250, 16, 12);
 }
-a.modal_btn:hover{
+.modal_btn:hover{
   background-color: rgb(168, 10, 7);
+  cursor:pointer;
 }
 /* СПАСИБО ЗА ЗАЯВКУ */
 

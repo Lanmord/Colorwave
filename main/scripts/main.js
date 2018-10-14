@@ -1,6 +1,6 @@
 // Отправка заявки 
 $(document).ready(function() {
-	$('#form').submit(function() { // проверка на пустоту заполненных полей. Атрибут html5 — required не подходит (не поддерживается Safari)
+	$('form').submit(function() { // проверка на пустоту заполненных полей. Атрибут html5 — required не подходит (не поддерживается Safari)
 		if (document.form.name.value == '' || document.form.phone.value == '' ) {
 			valid = false;
 			return valid;
@@ -12,7 +12,7 @@ $(document).ready(function() {
 		}).done(function() {
 			$('.js-overlay-thank-you').fadeIn();
 			$(this).find('input').val('');
-			$('#form').trigger('reset');
+			$('form').trigger('reset');
 		});
 		return false;
 	});
