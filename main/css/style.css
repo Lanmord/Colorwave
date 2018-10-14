@@ -10,6 +10,7 @@ button:focus {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  outline: none;
 }
 a{
   color:white;
@@ -701,7 +702,7 @@ nav{
   flex-direction: column;
   align-items: flex-start;
   margin-right: 50px;
-  border:solid 1px red;
+  /* border:solid 1px red; */
 }
 .footer a{
   font-family: 'Myriad Pro';
@@ -736,7 +737,7 @@ nav{
   display: flex;
   flex-direction: column;
   margin-right: 20px;
-  border:solid 1px red;
+  /* border:solid 1px red; */
 }
 .col2 a{
   font-family: 'Myriad Pro';
@@ -770,9 +771,7 @@ img.padding{
   margin: 25px 8px 0 0;
   font-size: 2.7em;
 }
-.col3{
-  border:solid 1px red;
-}
+
 a.arrow_top{
   background-image: url(../img/arrow_top.png);
   background-size: cover;
@@ -1009,10 +1008,149 @@ textarea {
 .slider_best{
   width: 75%;
   max-width: 1920px;
-  background-color: chocolate;
-  height: 500px;
+  background-color: white;
+  padding-bottom: 20px;
+  position: relative;
+}
+.slider_best h1{
+  margin: 1.5em 0 1em;
+  font-size: 4em;
+  font-family: 'Raleway';
+  font-weight: 800;
+  
 }
 .slider_best.flex{
   flex-direction: column;
-  color:w
+}
+.slider_best_inner{
+  height: 100%;
+  width: 100%;
+}
+.slider_best_inner2{
+  height: 100%;
+  width: 100%;
+}
+.slider_best_items{
+  position: relative;
+  
+}
+.img_best{
+  width: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  height:300px;
+  background-position: center;
+ 
+}
+#img1{
+  background-image: url(../img/good1.jpg);
+}
+#img2{
+  background-image: url(../img/good2.jpg);
+}
+#img3{
+  background-image: url(../img/good3.jpg);
+}
+#img4{
+  background-image: url(../img/good4.jpg);
+}
+#img5{
+  background-image: url(../img/good5.jpg);
+}
+#img6{
+  background-image: url(../img/good6.jpg);
+}
+#img7{
+  background-image: url(../img/good7.jpg);
+}
+.status{
+  position: absolute;
+  background-color: #000;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  color: white;
+  top: 0;
+  left: 0;
+  font-family: 'Raleway';
+  font-weight: 800;
+  margin-left: 1px;
+}
+#amount.price{
+  font-size: 4.5em;
+}
+.price{
+  margin-right: 10px;
+  font-family: 'Myriad Pro';
+  font-weight: 600;
+  font-size: 2.5em;
+  color: rgb(78, 78, 78);
+}
+.description{
+  display: block;
+  font-family: 'Raleway';
+  font-weight: normal;
+  font-size: 2em;
+  margin-top: 10px;
+}
+.slider_best_items > a{
+  margin-top: 20px;
+  font-family: 'Myriad Pro';
+  font-weight: 600;
+  display: block;
+  background-color: #000;
+  border:solid black 3px;
+  padding: 10px 0;
+  font-size: 1.7em;
+  width: 185px;
+  text-align: center;
+  transition: .2s;
+  margin-left: 1px;
+  text-transform: uppercase;
+}
+.lnr-cart{
+  font-size: 1.5em;
+  margin-right: 8px;
+  vertical-align: sub; 
+}
+.slider_best_items > a:hover .lnr-cart{
+  color: black;
+  font-weight: 400;
+}
+.slider_best_items > a:hover{
+  background-color: white;
+  color: black;
+}
+#slide2.lnr.lnr-chevron-right{
+  display: inline-block;
+  color: rgb(126, 126, 126);
+  font-size: 2.5em;   
+  transition: .3s;          
+}
+#slide1.lnr.lnr-chevron-left{
+  display: inline-block;
+  color: rgb(126, 126, 126);
+  font-size: 2.5em;  
+  transition: .3s;                  
+}
+.best_title {
+  display: block;
+  position: relative;
+  
+}
+.arrows{
+  position:absolute;
+  top: 65px;
+  right: 0;
+}
+.arrows > div:hover{
+  cursor: pointer;
+}
+#slide1.lnr.lnr-chevron-left:hover{
+  color:black;
+}
+#slide2.lnr.lnr-chevron-right:hover{
+  color:black;
+}
+.arrows > div{
+  margin-left: 20px;
 }
