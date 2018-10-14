@@ -1,0 +1,44 @@
+#slider {
+	height: 512px;
+	width: 1920px;
+	border: 5px solid #000D4D;
+	margin: 50px auto;
+	overflow: hidden; 
+}
+#row {
+	transition: all ease 300ms;
+	background-color: #D6FFE5;
+	position: relative;
+	left: 0;
+}
+#row img {
+	float: left;
+}
+#row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#buttons {
+	position: relative;
+	margin: 20px auto;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+}
+.buttons {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #000D4D;
+	color: white;
+	width: 50px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	transition: all ease 300ms;
+	cursor: pointer;
+	user-select: none;
+}
+.buttons:hover {
+	background-color: #0026E3;
+}
