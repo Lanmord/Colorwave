@@ -1,4 +1,3 @@
-// the main slider
 let slideIndex = 1,
     wrap = document.querySelector('.slider_wrap'),
     slides = document.getElementsByClassName('slider-item'),
