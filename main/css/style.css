@@ -330,12 +330,6 @@ nav{
 .box4 h1{
   font-size: 4.5em;
 }
-.slider_best{
-  width: 75%;
-  max-width: 1920px;
-  background-color: chocolate;
-  height: 500px;
-}
 .slider_sale{
   width: 75%;
   max-width: 1920px;
@@ -469,24 +463,7 @@ nav{
   top: -5px;
   left: -5px;
 }
-.dot-goods-active {
-  background-color: #a0a0a0;
-  border-color: #9c9c9c;
-  width: 15px;
-  height: 15px;
-  opacity: .6;
-  top: -5px;
-  left: -5px;
-}
-.dot-sale-active {
-  background-color: #a0a0a0;
-  border-color: #9c9c9c;
-  width: 15px;
-  height: 15px;
-  opacity: .6;
-  top: -5px;
-  left: -5px;
-}
+
 
 .prev,.next{
   display: block;
@@ -838,23 +815,6 @@ a.arrow_top:hover{
   width: 100px;
 }
 
-.best-goods-item {
-  background-color: green;
-  color: white;
-  width: 100%;
-  height: 100%;
-  font-size: 150px;
-  text-align: center;
-}
-
-.sale-item {
-  background-color: darkgrey;
-  color: white;
-  width: 100%;
-  height: 100%;
-  font-size: 150px;
-  text-align: center;
-}
 /* Модальное окно */
 .modal{
   display:none;
@@ -1044,3 +1004,15 @@ textarea {
 }
 
 /* конец стилей модального окна */
+
+/* СЛАЙДЕР ЛУЧШИЕ ТОВАРЫ */
+.slider_best{
+  width: 75%;
+  max-width: 1920px;
+  background-color: chocolate;
+  height: 500px;
+}
+.slider_best.flex{
+  flex-direction: column;
+  color:w
+}

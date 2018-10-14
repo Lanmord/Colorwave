@@ -99,12 +99,11 @@
    <!-- КОНЕЦ МОДАЛЬНОГО ОКНА -->
     <section>
       <div class="slider_wrap flex">
-
         <div class="slider-item fade">
           <div class="slide_img1 flex">
             <div class="slider_img_inner">
               <h1>Ремонт и обслуживание принтеров</h1>
-              <h2>Быстро и просто.</h2>
+              <h2>Быстро, качественно <br> и по отличной цене!</h2>
               <a href="#" class="btn_slider">Подробнее</a>
             </div>
           </div>
@@ -186,35 +185,30 @@
       </a>
     </div>
   </section>
-  <section class="flex">
-    <div class="slider_best flex">
-      <div class="best-goods-item">1</div>
-      <div class="best-goods-item">2</div>
-      <div class="best-goods-item">3</div>
-      <div class="best-goods-item">4</div>
-      <span class="lnr lnr-chevron-left-circle prev" id="prev-btn"></span>
-      <span class="lnr lnr-chevron-right-circle next" id="next-btn"></span>
-      <div class="goods-dots">
-        <div class="dot dot-goods dot-goods-active"></div>
-        <div class="dot dot-goods"></div>
-        <div class="dot dot-goods"></div>
-        <div class="dot dot-goods"></div>
+<section class="flex">
+  <div class="slider_best flex">
+    <h1>Лучшие Товары</h1>
+    <div class="slider_best_inner">
+      <div id="row">
+        <img src="img/1.jpg" class="slide" alt="">
+        <img src="img/2.jpg" class="slide" alt="">
+        <img src="img/3.jpg" class="slide" alt="">
+        <img src="img/4.jpg" class="slide" alt="">
+        <img src="img/5.jpg" class="slide" alt="">
+        <img src="img/6.jpg" class="slide" alt="">
+        <img src="img/7.jpg" class="slide" alt="">
+        <img src="img/8.jpg" class="slide" alt="">
+      </div>
+      <div id="buttons">
+        <div class="buttons" id="button-left">Left</div>
+        <div class="buttons" id="button-right">Right</div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
   <section class="flex">
     <div class="slider_sale flex">
-      <div class="sale-item">1</div>
-      <div class="sale-item">2</div>
-      <div class="sale-item">3</div>
-      <div class="sale-item">4</div>
-      <span class="lnr lnr-chevron-left-circle prev" id="prev-btn-sale"></span>
-      <span class="lnr lnr-chevron-right-circle next" id="next-btn-sale"></span>
-      <div class="sale-dots">
-        <div class="dot dot-sale dot-sale-active"></div>
-        <div class="dot dot-sale"></div>
-        <div class="dot dot-sale"></div>
-        <div class="dot dot-sale"></div>
+      
       </div>
     </div>
   </section>
@@ -399,8 +393,7 @@
     </div>
   </section>
   <script src="scripts/mainSlider.js"></script>
-  <script src="scripts/goodsSlider.js"></script>
-  <script src="scripts/saleSlider.js"></script>
+  <script src="scripts/smallSlider.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="scripts/main.js"></script>
   <script src="scripts/jquery.maskedinput.min.js"></script>
@@ -409,7 +402,7 @@
     new WOW().init();
   </script>
   <script>
-    // МОДАЛЬНОЕ ОКНО - ЭТО БЫЛО СЛОЖНО //
+    // МОДАЛЬНОЕ ОКНО //
   jQuery(function($){
      $("#phone-place").mask("+375 (99) 999-99-99");
   });
@@ -446,7 +439,7 @@ $(".modal").mouseup(function (e) {
       }
     }
 });
-// НО Я СПРАВИЛСЯ)) //
+// МОДАЛЬНО ОКНО  //
   </script>
 </body>
 
