@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Main</title>
 </head>
 
@@ -98,17 +100,18 @@
 
    <!-- КОНЕЦ МОДАЛЬНОГО ОКНА -->
     <section>
-      <div class="slider_wrap flex">
-        <div class="slider-item fade">
+      <div class="slider_wrap ">
+        <div class="slider_wrap_inner">
+        <div class="slider-item">
           <div class="slide_img1 flex">
             <div class="slider_img_inner">
-              <h1>Ремонт и обслуживание принтеров</h1>
-              <h2>Быстро, качественно <br> и по отличной цене!</h2>
-              <a href="#" class="btn_slider">Подробнее</a>
+              <h1 class="wow bounceInDown" data-wow-duration="1.5s">Ремонт и обслуживание принтеров</h1>
+              <h2 class="wow fadeInUp">Быстро, качественно <br> и по отличной цене!</h2>
+              <a href="#" class="btn_slider wow bounceInUp" data-wow-delay="1s">Подробнее</a>
             </div>
           </div>
         </div>
-        <div class="slider-item fade">
+        <div class="slider-item">
           <div class="slide_img2 flex">
             <div class="slider_img_inner">
               <h1>Ремонт и обслуживание принтеров</h1>
@@ -117,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class="slider-item fade">
+        <div class="slider-item">
           <div class="slide_img3 flex">
             <div class="slider_img_inner">
               <h1>Ремонт и обслуживание принтеров</h1>
@@ -126,13 +129,9 @@
             </div>
           </div>
         </div>
+      </div>
         <span class="lnr lnr-chevron-left-circle prev"></span>
         <span class="lnr lnr-chevron-right-circle next"></span>
-        <div class="slider-dots">
-          <div class="dot dot-active"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-        </div>
       </div>
     </section>
   </header>
@@ -262,10 +261,13 @@
     </div>
   </div>
 </section>
+<section>
+  <div class="line"></div>
+</section>
   <section class="flex">
       <div class="slider_best flex " onselectstart="return false" onmousedown="return false" >
           <h1>
-            Лучшие Товары
+            Товары на Скидке
           </h1>
           <div class="arrows" >
               <div id="slide1" class="lnr lnr-chevron-left owl-left"></div>
@@ -275,64 +277,64 @@
               
                 <div class="slider_best_items">
                   <div id="img1" class="img_best"></div>
-                  <div class="status">ТОП</div>
-                  <span class="price">от</span>
-                  <span id="amount" class="price">9</span>
-                  <span class="price">бел.руб</span>
+                  <div id="sale_status" class="status">СКИДКА</div>
+                  <span id="red_price" class="price">от</span>
+                  <span id="amount" class="price red_price">9</span>
+                  <span id="red_price" class="price">бел.руб</span>
                   <span class="description">Офисная бумага  Svetocopy</span>
                   <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
                 </div>
                 <div class="slider_best_items">
                   <div id="img2" class="img_best"></div>
-                  <div class="status">ТОП</div>
-                  <span class="price">от</span>
-                  <span id="amount" class="price">50</span>
-                  <span class="price">бел.руб</span>
+                  <div id="sale_status" class="status">СКИДКА</div>
+                  <span id="red_price" class="price">от</span>
+                  <span id="amount" class="price red_price">50</span>
+                  <span id="red_price" class="price">бел.руб</span>
                   <span class="description">Комплект чернил для струйного принтера... </span>
                   <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
                 </div>
                 <div class="slider_best_items">
                   <div id="img3" class="img_best"></div>
-                  <div class="status">ТОП</div>
-                  <span class="price">от</span>
-                  <span id="amount" class="price">6.60</span>
-                  <span class="price">бел.руб</span>
+                  <div id="sale_status" class="status">СКИДКА</div>
+                  <span id="red_price" class="price">от</span>
+                  <span id="amount" class="price red_price">6.60</span>
+                  <span id="red_price" class="price">бел.руб</span>
                   <span class="description">Фотобумага  Ink-Mate матовая</span>
                   <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
                 </div>
                 <div class="slider_best_items">
                   <div id="img4" class="img_best"></div>
-                  <div class="status">ТОП</div>
-                  <span class="price">от</span>
-                  <span id="amount" class="price">200</span>
-                  <span class="price">бел.руб</span>
+                  <div id="sale_status" class="status">СКИДКА</div>
+                  <span id="red_price" class="price">от</span>
+                  <span id="amount" class="price red_price">200</span>
+                  <span id="red_price" class="price">бел.руб</span>
                   <span class="description">Комплект чернил  Ink Mate </span>
                   <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
                 </div>
                 <div class="slider_best_items">
                   <div id="img5" class="img_best"></div>
-                  <div class="status">ТОП</div>
-                  <span class="price">от</span>
-                  <span id="amount" class="price">6.60</span>
-                  <span class="price">бел.руб</span>
+                  <div id="sale_status" class="status">СКИДКА</div>
+                  <span id="red_price" class="price">от</span>
+                  <span id="amount" class="price red_price">6.60</span>
+                  <span id="red_price" class="price">бел.руб</span>
                   <span class="description">Фотобумага  Ink-Mate матовая</span>
                   <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
                 </div>
                 <div class="slider_best_items">
                   <div id="img6" class="img_best"></div>
-                  <div class="status">ТОП</div>
-                  <span class="price">от</span>
-                  <span id="amount" class="price">9</span>
-                  <span class="price">бел.руб</span>
+                  <div id="sale_status" class="status">СКИДКА</div>
+                  <span id="red_price" class="price">от</span>
+                  <span id="amount" class="price red_price">9</span>
+                  <span id="red_price" class="price">бел.руб</span>
                   <span class="description">Офисная бумага  Svetocopy</span>
                   <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
                 </div>
                 <div class="slider_best_items">
                   <div id="img7" class="img_best"></div>
-                  <div class="status">ТОП</div>
-                  <span class="price">от</span>
-                  <span id="amount" class="price">6.60</span>
-                  <span class="price">бел.руб</span>
+                  <div id="sale_status" class="status">СКИДКА</div>
+                  <span id="red_price" class="price">от</span>
+                  <span id="amount" class="price red_price">6.60</span>
+                  <span id="red_price" class="price">бел.руб</span>
                   <span class="description">Фотобумага  Ink-Mate матовая</span>
                   <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
                 </div>             
@@ -420,9 +422,53 @@
       </div>
     </div>
   </section>
-  <section class="flex">
-    <div class="slider_news flex">
-      <span>news</span>
+  <section class="flex color1">
+    <div class="slider_news flex" onselectstart="return false" onmousedown="return false">
+      <h1>Статьи</h1>
+      <div id="news" class="arrows" >
+          <div id="slide2" class="lnr lnr-chevron-left owl1-left .news_arrow"></div>
+          <div id="slide3" class="lnr lnr-chevron-right owl2-right .news_arrow"></div>
+      </div>
+      <div class="slider_news_inner">
+          <div class="news_item">
+            <div id="news1" class="img_best"></div>
+            <h3>Как обнулить картридж Canon после заправки</h3>
+            <span>
+                Необходимым условием перезаправки картриджей Canon является их обнуление. 
+                В противном случае ...
+            </span>
+            <a href="#" class="btn_news">Читать</a>
+          </div>
+          <div class="news_item">
+            <div id="news2" class="img_best"></div>
+            <h3>Как выбрать монитор</h3>
+            <span>
+                Монитор -это одна из важнейших составляющих любого ПК. Ведь именно монитор пользователь видит в первую очередь? Да и вообще...
+            </span>
+            <a href="#" class="btn_news">Читать</a>
+          </div>
+          <div class="news_item">
+            <div id="news3" class="img_best"></div>
+            <h3>Какой принтер выбрать</h3>
+            <span>Подчас, решив все-таки приобрести себе в пользование принтер, мы теряемся от многообразия моделей и функций, про которые...</span>
+            <a href="#" class="btn_news">Читать</a>
+          </div>
+          <div class="news_item">
+            <div id="news4" class="img_best"></div>
+            <h3>Защита от заправок в принтерах Samsung</h3>
+            <span>В большинстве моделей принтеров Samsungстоит защита от заправок. Это означает... </span>
+            <a href="#" class="btn_news">Читать</a>
+          </div>
+          <div class="news_item">
+            <div id="news5" class="img_best"></div>
+            <h3>Зачем чистить ноутбук от пыли?</h3>
+            <span>
+                Существуют данные о том, какое количество воздуха за день пропускает через системный блок...
+            </span>
+            <a href="#" class="btn_news">Читать</a>
+          </div>
+      </div>
+      
     </div>
   </section>
   <section class="flex">
@@ -526,8 +572,6 @@
   <script src="scripts/main.js"></script>
   <script src="scripts/jquery.maskedinput.min.js"></script>
   <script src="scripts/wow.min.js"></script>
-  <link rel="stylesheet" href="slick/slick.css">
-  <link rel="stylesheet" href="slick/slick-theme.css">
   <script src="slick/slick.min.js"></script>
   <script>
       $(document).ready(function () {
@@ -612,6 +656,47 @@
   ]
          
 		
+        });
+        $('.slider_news_inner').slick({
+          
+          dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  prevArrow:('.owl1-left'),
+  nextArrow:('.owl2-right'),
+  // swipe: false,
+  responsive: [
+    {
+      breakpoint: 1400,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 890,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+         
+		
+        });
+        $('.slider_wrap_inner').slick({
+          dots:true,
+          autoplay:false,
+          autoplaySpeed: 5000,
+          prevArrow:('.prev'),
+          nextArrow:('.next'),
         });
       });
 	
