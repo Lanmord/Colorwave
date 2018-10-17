@@ -1,0 +1,115 @@
+@media (max-width: 1790px){
+  .services{
+    font-size: 0.8em;
+  }
+}
+/* @media (max-width: 2000px){
+  .slide_img1,
+  .slide_img2,
+  .slide_img3,
+  .slider_wrap,
+  .slider_wrap_inner{
+    height: 30vh;
+  }
+} */
+@media (max-width: 1470px){
+  .services{
+    font-size: 0.7em;
+  }
+  .services h1{
+    line-height: 50px;
+  }
+}
+@media (max-width: 1300px){
+  .services{
+    font-size: 0.6em;
+  }
+  .services h1{
+    line-height: 40px;
+  }
+  .lnr-chevron-right-circle:before,
+  .lnr-chevron-left-circle:before{
+    display: none;
+  }
+  .slider_img_inner{
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 1600px){
+  #advant.flex{
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 1340px){
+  .slider_best{
+    font-size: 0.85em;
+  }
+  #advant.flex{
+    font-size: 0.7em;
+  }
+  .description{
+    padding-right: 10px;
+  }
+}
+@media (max-width: 1340px){
+  .sale{
+    font-size: 0.8em;
+  }
+  .logo span{
+    display: none;
+  }
+}
+@media (max-width: 1340px){
+  .slider_news{
+    font-size: 0.85em;
+  }
+}
+@media (max-width: 1140px){
+  .logo_panel_inner,
+   .nav_inner, 
+   .slider_img_inner,
+   .slider_best,
+   .brands,
+   .footer,
+   .pod_footer{
+     width: 90%;
+   }
+   .sale,
+   .slider_news,
+   .advantages{
+      width: 95%;
+   }
+   .services{
+     width: 100%;
+   }
+   .news_item > h3,.btn_news{
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .news_item > span{
+      display: block;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .slider_news > h1{
+      margin-bottom: 50px;
+    }
+}
+@media (max-width: 860px){
+  .phone_and_btn{
+    display: none;
+  }
+  .logo_panel_inner{
+    height: 0;
+  }
+  .logo{
+    z-index: 999;
+    position: absolute;
+    top: 7px;
+    left: 30px;
+  }
+  .img_logo{
+    background-image: url(../img/logo_horizontal.png);
+    width: 340px;
+  }
+}
