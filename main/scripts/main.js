@@ -157,8 +157,56 @@ responsive: [
 	});
   });
 
-	$(document).ready(function(){
-			$('.toggle-menu').click(function(){
-				$('.menu-mobile').toggleClass('active')
-			});
-	});
+	$(".toggle-menu").click(function() {
+	 
+		if ($(".menu-mobile").hasClass("active")) {
+
+			$(".menu-mobile").removeClass('active');
+			$("html").css("overflow-y","scroll");
+		} 
+		else {
+			$('.menu-mobile').toggleClass('active');
+			$("html").css("overflow-y","hidden");
+		}
+		});
+	
+
+	  // МОДАЛЬНОЕ ОКНО //
+		jQuery(function($){
+			$("#phone-place").mask("+375 (99) 999-99-99");
+	 });
+	 
+ $("#feedback, .closeBtn").click(function() {
+	 
+ if ($(".modal:visible").size() > 0) {
+ 
+		 $("#modal-panel").css("display","none");
+		 $("html").css("overflow-y","scroll");
+ 
+ } else {
+ 
+		 $(".modal").css("display","block");
+		 $("html").css("overflow-y","hidden");
+ 
+ }
+ });
+ 
+ $(".modal").mouseup(function (e) {
+		 var container = $(".modal");
+		 if (container.has(e.target).length === 0) {
+ 
+			 if ($(".modal:visible").size() > 0) {
+ 
+				 $("#modal-panel").css("display", "none");
+				 $("html").css("overflow-y", "scroll");
+ 
+			 } else {
+ 
+				 $(".modal").css("display", "block");
+				 $("html").css("overflow-y", "hidden");
+				 
+ 
+			 }
+		 }
+ });
+ // МОДАЛЬНО ОКНО  //

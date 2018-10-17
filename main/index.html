@@ -71,9 +71,17 @@
       </div>
        <!-- BURGER MENU  -->
             <div class="menu-mobile">
-              <ul class="active">
+              <ul>
                 <li> <a href="#"> Главная</a></li>
-                <li class="mob_btn"><a href="#">Цены на услуги </a><span class="lnr lnr-chevron-right"></span></li> 
+                <li class="mob_btn sub_menu">
+                  <a href="#">Цены на услуги</a><span class="lnr lnr-chevron-right"></span>
+                  <ul>
+                    <li><a href="#">Заправка и восстановление картриджей</a></li>
+                    <li><a href="#">Ремонт и обслуживание принтеров</a></li>
+                    <li><a href="#">Ремонт, ПК, ноутбуков, планшетов</a></li>
+                    <li><a href="#">Стоимость диагноститки</a></li>
+                  </ul>
+                </li> 
                 <li><a href="#">Продукци</a></li>
                 <li><a href="#">О нас</a></li>
                 <li><a href="#">Статьи</a></li>
@@ -605,46 +613,7 @@
   <script>
     new WOW().init();
   </script>
-  <script>
-    // МОДАЛЬНОЕ ОКНО //
-  jQuery(function($){
-     $("#phone-place").mask("+375 (99) 999-99-99");
-  });
-  
-$("#feedback, .closeBtn").click(function() {
-  
-if ($(".modal:visible").size() > 0) {
 
-    $("#modal-panel").css("display","none");
-    $("html").css("overflow-y","scroll");
-
-} else {
-
-    $(".modal").css("display","block");
-    $("html").css("overflow-y","hidden");
-
-}
-});
-$(".modal").mouseup(function (e) {
-    var container = $(".modal");
-    if (container.has(e.target).length === 0) {
-
-      if ($(".modal:visible").size() > 0) {
-
-        $("#modal-panel").css("display", "none");
-        $("html").css("overflow-y", "scroll");
-
-      } else {
-
-        $(".modal").css("display", "block");
-        $("html").css("overflow-y", "hidden");
-        
-
-      }
-    }
-});
-// МОДАЛЬНО ОКНО  //
-  </script>
 </body>
 
 </html>

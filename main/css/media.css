@@ -95,7 +95,7 @@
       margin-bottom: 50px;
     }
 }
-@media (max-width: 860px){
+@media (max-width: 890px){
   .phone_and_btn{
     display: none;
   }
