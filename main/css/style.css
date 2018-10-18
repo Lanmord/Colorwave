@@ -337,12 +337,15 @@ nav{
 /*мои стили, что можно изменить изменяйте наздоровье) */
 .slider_wrap{
   position: relative;
-  height: 70vh;
+  width: 100%;
+  padding-top: 34.5%;
 }
 .slider_wrap_inner{
-  height: 70vh;
+  position: absolute;
+  height: 100%;
   width: 100%;
-  
+  top: 0;
+  left: 0;
 }
 .slide_img1{
   color: black;
@@ -351,9 +354,9 @@ nav{
   background-repeat: no-repeat;
   background-size: 45%;
   background-position: 75%;
-  height: 70vh;
-  max-height: 1400px;
+  position: relative;
   width: 100%;
+  padding-top: 34.5%;
 }
 .slide_img2{
   color: black;
@@ -362,9 +365,9 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
-  max-height: 1400px;
+  position: relative;
   width: 100%;
+  padding-top: 34.5%;
 }
 .slide_img3{
   color: black;
@@ -373,30 +376,36 @@ nav{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
-  max-height: 1400px;
+  position: relative;
   width: 100%;
+  padding-top: 34.5%;
 }
 .slider_img_inner{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.slider_img_inner2{
+  font-family: 'Raleway';
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   width: 65%;
-  height: 100%;
-  max-width: 1920px;
-  font-family: 'Raleway';
- 
 }
 .btn_slider{
-  margin-left: 3px;
   margin-top: 25px;
   color: white;
   font-size: .5em;
   font-family:'Myriad Pro';
   font-weight: 600;
   text-transform: uppercase;
-  padding: 15px 35px;
+  padding: 1.2em 2.8em;
   background-color: rgb(238, 34, 29);
 }
 .btn_slider:hover{
@@ -409,7 +418,7 @@ nav{
 .slider_img_inner h1{
   font-size: 1.8em;
   font-weight: 800;
-  margin: 2em 0 0 0;
+  margin: 1em 0 0 0;
   text-transform: uppercase;
 }
 .slider_img_inner h2{
@@ -1362,48 +1371,43 @@ nav{
   padding: 0;
 }
 .menu-mobile ul li{
-  position: relative;
   padding: 20px 0 20px 50px;
   border-bottom: rgb(27, 27, 27) solid 1px;
 }
-.menu-mobile ul li ul{
+.drop-menu{
   display: none;
-  background-color: aqua;
 }
-.menu-mobile ul li:hover ul{
+.drop-menu.active{
+  font-size: 0.8em;
+  overflow: auto;
   display: block;
   width: 100%;
+  padding: 0;
+  border-bottom: 0;
+  /* background-color: rgb(68, 68, 68); */
+  -webkit-box-shadow: inset 0px 0px 37px 0px rgba(0,0,0,0.44);
+  -moz-box-shadow: inset 0px 0px 37px 0px rgba(0,0,0,0.44);
+  box-shadow: inset 0px 0px 37px 0px rgba(0,0,0,0.44);
 }
-.menu-mobile ul li ul li{
-  width: 100%;
+.drop-menu a{
+  padding: 0 0 0 45px;
 }
 .mob_btn{
   position: relative;
 }
-.mob_btn> .lnr-chevron-right{
+.mob_btn > .lnr-chevron-right{
   font-size: 0.7em;
   position: absolute;
   top: 30px;
   right: 30px;
+  transform: rotate(0deg);
+  transition: .3s;
+}
+.mob_btn > .lnr-chevron-right.active{
+  transform: rotate(90deg);
 }
 .menu-mobile a{
   display: block;
  width: 100%;
 }
-@media (max-width: 890px){
-  nav{
-    height: 83px;
-  }
-  .toggle-menu{
-    display: block;
-  }
-  .nav_inner{
-    display: none;
-  }
-  nav.flex{
-    justify-content: flex-end;
-  }
-  .menu-mobile{
-    display: block;
-  }
-}
+

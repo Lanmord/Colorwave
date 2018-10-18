@@ -155,7 +155,12 @@ responsive: [
 	  prevArrow:('.prev'),
 	  nextArrow:('.next'),
 	});
-  });
+	});
+	
+	$(".sub_menu").click(function() {
+		$('.drop-menu').toggleClass('active');
+		$('.mob_btn .lnr-chevron-right').toggleClass('active');
+	});
 
 	$(".toggle-menu").click(function() {
 	 
