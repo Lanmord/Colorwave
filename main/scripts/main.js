@@ -53,17 +53,19 @@ responsive: [
   }
 },
 {
-  breakpoint: 1020,
+  breakpoint: 1025,
   settings: {
 	slidesToShow: 2,
-	slidesToScroll: 1
+	slidesToScroll: 1,
+	swipe: true,
   }
 },
 {
   breakpoint: 780,
   settings: {
 	slidesToShow: 1,
-	slidesToScroll: 1
+	slidesToScroll: 1,
+	swipe: true,
   }
 }
 // You can unslick at a given breakpoint now by adding:
@@ -94,17 +96,19 @@ responsive: [
   }
 },
 {
-  breakpoint: 1020,
+  breakpoint: 1025,
   settings: {
 	slidesToShow: 2,
-	slidesToScroll: 1
+	slidesToScroll: 1,
+	swipe: true,
   }
 },
 {
   breakpoint: 780,
   settings: {
 	slidesToShow: 1,
-	slidesToScroll: 1
+	slidesToScroll: 1,
+	swipe: true,
   }
 }
 // You can unslick at a given breakpoint now by adding:

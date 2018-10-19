@@ -320,4 +320,44 @@
   .color2{
     margin-top: 10px;
   }
+  .slider_news > h1{
+    margin-bottom: 15px;
+    font-size: 3em;
+  }
+  #news.arrows{
+    top: 30px;
+    left: 10px;
+  }
+  .news_item > .img_best{
+    height: 180px;
+  }
+  .news_item > h3, .btn_news{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .news_item > span{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .footer{
+    padding-top: 3em;
+  }
+}
+@media (max-width: 366px){
+  #advant.flex{
+    font-size: 0.6em;
+  }
+  #advant h1{
+    font-size: 3.8em;
+  }
+}
+@media (max-width: 610px){
+  .menu-mobile{
+    font-size: 2em;
+  }
+}
+@media (max-width: 425px){
+  .drop-menu a{
+    padding: 0 20px 0 0;
+  }
 }

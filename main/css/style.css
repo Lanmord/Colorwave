@@ -31,6 +31,7 @@ body{
   display: inline-block;
   width: 95px;
   height: 95px;
+  z-index: 1;
 }
 .logo span{
   font-family:'Raleway';
@@ -1234,6 +1235,7 @@ textarea {
 }
 .slick-dots{
   position: absolute;
+    z-index: 1;
     bottom: 10%;
     left: 0;
 }
@@ -1248,6 +1250,7 @@ textarea {
 .slick-dots li button:before{
   content: "";
   position: absolute;
+  z-index: 1;
   width: 0;
   height: 0;
   left: 30%;
@@ -1273,11 +1276,13 @@ textarea {
   width: 15px;
   z-index: 99;
   transition: .2s;
+  z-index: 1;
   position: relative;
 }
 .slick-dots li.slick-active button:before{
   content: "";
   position: absolute;
+  z-index: 1;
   background-color: black;
   width: 15px;
   height: 15px;
@@ -1410,4 +1415,10 @@ nav{
   display: block;
  width: 100%;
 }
-
+.qa{
+  margin-top: 20px;
+}
+.qa span{
+  font-size: 1em;
+  color: #ff8b8b;
+}
