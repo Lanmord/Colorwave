@@ -32,14 +32,16 @@
           <li><a class="red_line" href="index.php">главная</a></li>
           <li class="menu_list">
             <ul class="menu_drop">
-              <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="#">Заправка и восстановление
+              <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="services1.php">Заправка и восстановление
                   картриджей</a></li>
               <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="#">Ремонт и обслуживание принтеров</a></li>
               <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="#">Ремонт ПК, ноутбуков, планшетов</a></li>
               <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="#">Стоимость диагностики</a></li>
             </ul>
-            <a class="main_btn" href="LOL">
+            <a class="main_btn">
+           
               Цены на услуги
+ 
             </a>
             <span class="lnr lnr-chevron-down"></span>
           </li>

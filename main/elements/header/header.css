@@ -192,7 +192,9 @@ nav{
 .main_btn{
   display: block;
   position: absolute;
+  cursor: default;
 }
+
 .main_btn::after{
   content: '';
   bottom: -19px;
@@ -552,9 +554,6 @@ textarea {
 @media (max-width: 1140px){
   .logo_panel_inner,
    .nav_inner, 
-   .slider_img_inner,
-   .slider_best,
-   .brands,
    .footer,
    .pod_footer{
      width: 90%;

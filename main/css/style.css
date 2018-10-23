@@ -186,6 +186,7 @@ nav{
 .main_btn{
   display: block;
   position: absolute;
+  cursor: default;
 }
 .main_btn::after{
   content: '';
@@ -510,7 +511,7 @@ nav{
   background-color: white;
   border: solid white;
 }
-.advantages{
+/* .advantages{
   width: 75%;
   max-width: 1920px;
   display: grid;
@@ -522,7 +523,7 @@ nav{
   "list1 list2 list3"
   "list4 list5 list6";
   padding-bottom: 50px;
-}
+} */
 
 .advant_container{
   display: flex;

@@ -179,7 +179,6 @@ responsive: [
 		}
 		});
 	
-
 	  // МОДАЛЬНОЕ ОКНО //
 	jQuery(function($){
 			$("#phone-place").mask("+375 (99) 999-99-99");
