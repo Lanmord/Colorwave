@@ -1,0 +1,226 @@
+/* MENU-LEFT */
+.menu-left-wrapper{
+  position: relative;
+  min-width: 450px;
+  background-color: rgb(71, 71, 71);
+}
+.menu-left{
+  position: sticky;
+  top: 30px;
+  left: 0;
+  margin-top: 2.5em;
+  margin-bottom: 10em;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-size: 1.8em;
+}
+.menu-left ul{
+  margin: 0px;
+  padding: 0px;
+}
+  .menu-left a,.menu-left span{
+    display: block; 
+  }
+.menu-left li {
+  cursor: pointer;
+  position: relative;
+}
+.menu-left li a, .menu-left li span{
+  border-top: rgb(133, 133, 133) solid 1px;
+  color: white;
+  padding: 15px 10px 15px 20px;
+}
+.borderbotom{
+  border-bottom: rgb(133, 133, 133) solid 1px;
+}
+.menu-left li a:hover,.menu-left li span:hover{
+  background: #333;
+}
+.menu-left li ul li a{
+  background: rgb(228, 228, 228);
+  color: #000;
+  padding-left: 60px;
+}
+.menu-left li ul li a:hover{
+  background: rgb(204, 204, 204);
+}
+.menu-left i#first_arrow.lnr-chevron-right{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 0.8em;
+  transform: rotate(0deg);
+  transition: .5s;
+  
+}
+.menu-left i#first_arrow.lnr-chevron-right.active{
+  transform: rotate(90deg);
+}
+.menu-left i#second_arrow.lnr-chevron-right{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 0.8em;
+  transform: rotate(0deg);
+  transition: .3s;
+  
+}
+.menu-left i#second_arrow.lnr-chevron-right.active{
+  transform: rotate(90deg);
+}
+/* мобильное меню -----------------------------------*/
+.menu-left-mob-btn{
+  background-image: url(../../img/arrow-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 50px;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  cursor: pointer;
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  top: 110px;
+  opacity: 0.8;
+  display: none;
+}
+.menu-left-mob-btn-active{
+ top: 300px;
+ right: 0;
+ left: auto;
+ transform: scale(-1, 1);
+ z-index: 9999999999;
+}
+.menu-left-mob{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 999999;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-size: 1.8em;
+  background-color: rgb(71, 71, 71);
+  transition: .4s;
+}
+.menu-left-mob.active{
+  left: 0;
+}
+.menu-left-mob ul{
+  margin: 0px;
+  padding: 0px;
+}
+  .menu-left a,.menu-left span{
+    display: block; 
+  }
+.menu-left-mob li {
+  cursor: pointer;
+  position: relative;
+}
+.menu-left-mob li a, .menu-left-mob li span{
+  border-top: rgb(133, 133, 133) solid 1px;
+  color: white;
+  padding: 15px 10px 15px 20px;
+  display: block;
+}
+.borderbotom{
+  border-bottom: rgb(133, 133, 133) solid 1px;
+}
+.menu-left-mob li a:hover,.menu-left-mob li span:hover{
+  background: #333;
+}
+.menu-left-mob li ul li a{
+  background: rgb(228, 228, 228);
+  color: #000;
+  padding-left: 60px;
+}
+.menu-left-mob li ul li a:hover{
+  background: rgb(204, 204, 204);
+}
+.menu-left-mob i#first_arrow.lnr-chevron-right{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 0.8em;
+  transform: rotate(0deg);
+  transition: .5s;
+}
+.menu-left-mob i#first_arrow.lnr-chevron-right.active{
+  transform: rotate(90deg);
+}
+.menu-left-mob i#second_arrow.lnr-chevron-right{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 0.8em;
+  transform: rotate(0deg);
+  transition: .3s;
+}
+.menu-left-mob i#second_arrow.lnr-chevron-right.active{
+  transform: rotate(90deg);
+}
+.menu-left-mob img{
+  display: block;
+  margin: 7px auto 5px;
+  width: 220px;
+}
+/* Меню */
+@media (max-width: 1350px){
+  .menu-left-wrapper{
+    min-width: 350px;
+  }
+  .menu-left{
+  font-size: 1.5em;
+  }
+  .menu-left li ul li a {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 1320px){
+  .menu-left-wrapper{
+    min-width: 300px;
+  }
+  .menu-left{
+  font-size: 1.3em;
+  }
+}
+@media (max-width: 1320px){
+  .menu-left-wrapper{
+    min-width: 250px;
+  }
+  .menu-left li a, .menu-left li span{
+    padding: 15px 50px 15px 20px;
+  }
+}
+@media (max-width: 890px){
+  .menu-left{
+  margin: 0;
+  top: 0;
+  }
+}
+@media (max-width: 760px){
+  .menu-left-wrapper{
+    display: none;
+  }
+  .menu-left-mob-btn{
+  display: block;
+  }
+  .menu-left-mob{
+  display: block;
+  }
+}
+@media (max-width: 460px){
+.menu-left-mob-btn{
+  width: 33px;
+  height: 41px;
+}
+}
+@media (max-width: 400px){
+  .menu-left-mob{
+    font-size: 1.4em;
+  }
+}
