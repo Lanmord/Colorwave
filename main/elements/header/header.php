@@ -60,12 +60,12 @@
             <a href="#">Цены на услуги</a><span class="lnr lnr-chevron-right"></span>
           </li>
           <ul class="drop-menu">
-            <li><a href="#">Заправка и восстановление картриджей</a></li>
+            <li><a href="services1.php">Заправка и восстановление картриджей</a></li>
             <li><a href="#">Ремонт и обслуживание принтеров</a></li>
             <li><a href="#">Ремонт, ПК, ноутбуков, планшетов</a></li>
             <li><a href="#">Стоимость диагноститки</a></li>
           </ul>
-          <li><a href="../../products.php">Продукция</a></li>
+          <li><a href="products.php">Продукция</a></li>
           <li><a href="#">О нас</a></li>
           <li><a href="#">Статьи</a></li>
           <li><a href="#">Контакты</a></li>

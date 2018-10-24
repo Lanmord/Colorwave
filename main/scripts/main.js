@@ -217,4 +217,45 @@ responsive: [
 			 }
 		 }
  });
- // МОДАЛЬНО ОКНО  //
+ 
+ 
+// Стрелочки
+$(".menu-left-mob-btn").click(function() {
+	 
+	if ($(".menu-left-mob").hasClass("active")) {
+
+		$(".menu-left-mob").removeClass('active');
+		$("html").css("overflow-y","scroll");
+		$(".menu-left-mob-btn").removeClass('menu-left-mob-btn-active');
+	} 
+	else {
+		$('.menu-left-mob').addClass('active');
+		$("html").css("overflow-y","hidden");
+		$(".menu-left-mob-btn").addClass('menu-left-mob-btn-active');
+	}
+	});
+
+
+	 
+ $(".first_sub").click(function() {
+	 
+	 if ($(".first_ul:visible").size() > 0) {
+		 
+		 $('.first_arrow').removeClass('active');
+		 }
+		 
+		 else {
+		 $('.first_arrow').addClass('active');
+		 }
+ });
+ $(".second_sub").click(function() {
+	 
+	 if ($(".second_ul:visible").size() > 0) {
+		 
+		 $('.second_arrow').removeClass('active');
+
+		 } 
+		 else {
+		 $('.second_arrow').addClass('active');
+		 }
+ });

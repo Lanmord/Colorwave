@@ -10,87 +10,15 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="elements/header/header.css">
   <link rel="stylesheet" href="elements/footer/footer.css">
+  <link rel="stylesheet" href="elements/left-menu/left-menu.css">
   <link rel="stylesheet" href="css/services1.css">
-  <link rel="stylesheet" href="css/services1_media.css">
 </head>
 <body>
-
 <?php include('elements/header/header.php');?>
 
-  <div class="menu-left-mobile">
-    <div class="menu-left-mob-btn"></div>
-
-      <div class="menu-left-mob">
-          <li><span id="first_sub">
-            Заправка и восстановление картриджей 
-            <i id="first_arrow" class="lnr lnr-chevron-right"></i>
-          </span>
-            <ul id="first_ul">
-             <li><a href="">Заправка картриджей HP</a></li>
-             <li><a href="">Заправка картриджей Canon</a></li>
-             <li><a href="">Заправка картриджей Samsung</a></li>
-             <li><a href="">Заправка картриджей Xerox</a></li>
-             <li><a href="">Заправка картриджей Brother</a></li>
-             <li><a href="">Заправка картриджей Panasonic</a></li>
-             <li><a href="">Заправка картриджей Pantum</a></li>
-             <li><a href="">Заправка лазерных картриджей</a></li>
-             <li><a href="">Заправка струйных картриджей</a></li>
-             <li><a href="">Восстановление и ремонт картриджей</a></li>
-            </ul>
-          </li>
-            <li><a href="#">Ремонт и обслуживание принтеров</a></li>
-          </li>
-          <li>
-            <span id="second_sub">
-            Ремонт ПК, ноутбуков и планшетов
-            <i  id="second_arrow" class="lnr lnr-chevron-right"></i>
-          </span>
-            <ul id="second_ul">
-                <li><a href="">Цена на ремонт техники</a></li>
-                <li><a href="">Ремонт ноутбуков</a></li>
-                <li><a href="">Ремонт ПК</a></li>
-            </ul>
-          </li>
-          <li><a href="#" class="borderbotom">Стоимость диагностики</a></li>
-        </div>
-  </div>
+  
  <div class="wrapper">
-  <div class="menu-left-wrapper">
-    <div class="menu-left">
-      <li><span id="first_sub">
-        Заправка и восстановление картриджей 
-        <i id="first_arrow" class="lnr lnr-chevron-right"></i>
-      </span>
-        <ul id="first_ul">
-         <li><a href="">Заправка картриджей HP</a></li>
-         <li><a href="">Заправка картриджей Canon</a></li>
-         <li><a href="">Заправка картриджей Samsung</a></li>
-         <li><a href="">Заправка картриджей Xerox</a></li>
-         <li><a href="">Заправка картриджей Brother</a></li>
-         <li><a href="">Заправка картриджей Panasonic</a></li>
-         <li><a href="">Заправка картриджей Pantum</a></li>
-         <li><a href="">Заправка лазерных картриджей</a></li>
-         <li><a href="">Заправка струйных картриджей</a></li>
-         <li><a href="">Восстановление и ремонт картриджей</a></li>
-        </ul>
-      </li>
-        <li><a href="#">Ремонт и обслуживание принтеров</a></li>
-      </li>
-      <li>
-        <span id="second_sub">
-        Ремонт ПК, ноутбуков и планшетов
-        <i  id="second_arrow" class="lnr lnr-chevron-right"></i>
-      </span>
-        <ul id="second_ul">
-            <li><a href="">Цена на ремонт техники</a></li>
-            <li><a href="">Ремонт ноутбуков</a></li>
-            <li><a href="">Ремонт ПК</a></li>
-        </ul>
-      </li>
-      <li><a href="#" class="borderbotom">Стоимость диагностики</a></li>
-    </div>
-    
-  </div>
+    <?php include('elements/left-menu/left-menu.php');?>
   <div class="content">
 
     <h1 id="h1-main" align="center"><strong>Заправка картриджей в Минске</strong></h1>
@@ -176,58 +104,12 @@
 
  
   <?php include('elements/footer/footer.php');?>
-
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="scripts/jquery.maskedinput.min.js"></script>
   <script src="scripts/wow.min.js"></script>
   <script src="scripts/main.js"></script>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-    $(".menu-left ul").hide();
-    $(".menu-left li span").click(function() {
-        $(".menu-left ul:visible").slideUp("normal");
-        if (($(this).next().is("ul")) && (!$(this).next().is(":visible"))) {
-            $(this).next().slideDown("normal");
-        }
-    });
-    });
 
-     $(document).ready(function() {
-    $(".menu-left-mob ul").hide();
-    $(".menu-left-mob li span").click(function() {
-        $(".menu-left-mob ul:visible").slideUp("normal");
-        if (($(this).next().is("ul")) && (!$(this).next().is(":visible"))) {
-            $(this).next().slideDown("normal");
-        }
-    });
-    });
-    
-  $("#first_sub").click(function() {
-    
-    if ($("#first_ul:visible").size() > 0) {
-      
-      $('#first_arrow').removeClass('active');
-      }
-      
-      else {
-      $('#first_arrow').addClass('active');
-      }
-  });
-  $("#second_sub").click(function() {
-    
-    if ($("#second_ul:visible").size() > 0) {
-      
-      $('#second_arrow').removeClass('active');
 
-      } 
-      else {
-      $('#second_arrow').addClass('active');
-      }
-  });
-
-  
-  </script>
   <script>
     new WOW().init();
   </script>

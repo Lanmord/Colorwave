@@ -176,9 +176,9 @@
   grid-auto-rows: 1fr;
   grid-template-areas: 
   "box1"
-  "box2"
   "box3"
-  "box4";
+  "box4"
+  "box2";
   font-size: 0.7em;
   }
   .services h1{
@@ -350,6 +350,9 @@
   #advant h1{
     font-size: 3.8em;
   }
+  .img_logo {
+    width: 210px;
+}
 }
 @media (max-width: 610px){
   .menu-mobile{
@@ -360,4 +363,9 @@
   .drop-menu a{
     padding: 0 20px 0 0;
   }
+}
+@media (max-width: 340px){
+  .services span {
+    font-size: 2.4em;
+}
 }
