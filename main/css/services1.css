@@ -9,7 +9,8 @@
   width: 100%;
   background-color: #ebebeb;
   font-size: 20px;
-  padding: 0.5em 2em 2em 3em;
+  padding: 0.5em 2.2em 2em 2.8em;
+  color: #333;
 }
 .content h1{
   color: #333;
@@ -27,6 +28,7 @@
   font-size: 2.2em;
   padding-bottom: 0.6em;
 }
+
 @media (max-width: 1320px){
   .content{
     font-size: 1.5em;
@@ -41,5 +43,10 @@
   }
   .content > h1#h1-main{
     font-size: 1.8em;
+  }
+}
+@media (max-width: 380px){
+  .table{
+    font-size: 0.8em;
   }
 }

@@ -1,33 +1,33 @@
-<div class="wrapper">
+
     <div class="menu-left-mobile">
     <div class="menu-left-mob-btn"></div>
       <div class="menu-left-mob">
         <a href="#"> <img src="img/logo_horizontal.png" alt="logo"></a>
-          <li><span class="first_sub">
+          <li><span id="first_sub">
             Заправка и восстановление картриджей 
-            <i class="lnr lnr-chevron-right first_arrow"></i>
+            <i id="first_arrow" class="lnr lnr-chevron-right"></i>
           </span>
-            <ul class="first_ul">
+            <ul id="first_ul">
              <li><a href="services2.php">Заправка картриджей HP</a></li>
-             <li><a href="">Заправка картриджей Canon</a></li>
-             <li><a href="">Заправка картриджей Samsung</a></li>
-             <li><a href="">Заправка картриджей Xerox</a></li>
-             <li><a href="">Заправка картриджей Brother</a></li>
-             <li><a href="">Заправка картриджей Panasonic</a></li>
-             <li><a href="">Заправка картриджей Pantum</a></li>
-             <li><a href="">Заправка лазерных картриджей</a></li>
-             <li><a href="">Заправка струйных картриджей</a></li>
-             <li><a href="">Восстановление и ремонт картриджей</a></li>
+             <li><a href="services3.php">Заправка картриджей Canon</a></li>
+             <li><a href="services4.php">Заправка картриджей Samsung</a></li>
+             <li><a href="services5.php">Заправка картриджей Xerox</a></li>
+             <li><a href="services6.php">Заправка картриджей Brother</a></li>
+             <li><a href="services7.php">Заправка картриджей Panasonic</a></li>
+             <li><a href="services8.php">Заправка картриджей Pantum</a></li>
+             <li><a href="services9.php">Заправка лазерных картриджей</a></li>
+             <li><a href="services10.php">Заправка струйных картриджей</a></li>
+             <li><a href="services11.php">Восстановление и ремонт картриджей</a></li>
             </ul>
           </li>
             <li><a href="#">Ремонт и обслуживание принтеров</a></li>
           </li>
           <li>
-            <span class="second_sub">
+            <span id="second_sub">
             Ремонт ПК, ноутбуков и планшетов
-            <i class="lnr lnr-chevron-right second_arrow"></i>
+            <i id="second_arrow" class="lnr lnr-chevron-right"></i>
           </span>
-            <ul class="second_ul">
+            <ul id="second_ul">
                 <li><a href="">Цена на ремонт техники</a></li>
                 <li><a href="">Ремонт ноутбуков</a></li>
                 <li><a href="">Ремонт ПК</a></li>
@@ -38,31 +38,31 @@
       </div>
   <div class="menu-left-wrapper">
     <div class="menu-left">
-      <li><span class="first_sub">
+      <li><span id="first_sub">
         Заправка и восстановление картриджей 
-        <i class="lnr lnr-chevron-right first_arrow"></i>
+        <i id="first_arrow" class="lnr lnr-chevron-right"></i>
       </span>
-        <ul class="first_ul">
+        <ul id="first_ul">
          <li><a href="services2.php">Заправка картриджей HP</a></li>
-         <li><a href="">Заправка картриджей Canon</a></li>
-         <li><a href="">Заправка картриджей Samsung</a></li>
-         <li><a href="">Заправка картриджей Xerox</a></li>
-         <li><a href="">Заправка картриджей Brother</a></li>
-         <li><a href="">Заправка картриджей Panasonic</a></li>
-         <li><a href="">Заправка картриджей Pantum</a></li>
-         <li><a href="">Заправка лазерных картриджей</a></li>
-         <li><a href="">Заправка струйных картриджей</a></li>
-         <li><a href="">Восстановление и ремонт картриджей</a></li>
+         <li><a href="services3.php">Заправка картриджей Canon</a></li>
+         <li><a href="services4.php">Заправка картриджей Samsung</a></li>
+         <li><a href="services5.php">Заправка картриджей Xerox</a></li>
+         <li><a href="services6.php">Заправка картриджей Brother</a></li>
+         <li><a href="services7.php">Заправка картриджей Panasonic</a></li>
+         <li><a href="services8.php">Заправка картриджей Pantum</a></li>
+         <li><a href="services9.php">Заправка лазерных картриджей</a></li>
+         <li><a href="services10.php">Заправка струйных картриджей</a></li>
+         <li><a href="services11.php">Восстановление и ремонт картриджей</a></li>
         </ul>
       </li>
         <li><a href="#">Ремонт и обслуживание принтеров</a></li>
       </li>
       <li>
-        <span class="second_sub">
+        <span id="second_sub">
         Ремонт ПК, ноутбуков и планшетов
-        <i class="lnr lnr-chevron-right second_arrow"></i>
+        <i id="second_arrow" class="lnr lnr-chevron-right"></i>
       </span>
-        <ul class="second_ul">
+        <ul id="second_ul">
             <li><a href="">Цена на ремонт техники</a></li>
             <li><a href="">Ремонт ноутбуков</a></li>
             <li><a href="">Ремонт ПК</a></li>
@@ -72,6 +72,7 @@
     </div>
     
   </div>
+
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>
