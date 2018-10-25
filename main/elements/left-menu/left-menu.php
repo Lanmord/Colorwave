@@ -55,7 +55,7 @@
          <li><a href="services11.php">Восстановление и ремонт картриджей</a></li>
         </ul>
       </li>
-        <li><a href="#">Ремонт и обслуживание принтеров</a></li>
+        <li><a href="services12.php">Ремонт и обслуживание принтеров</a></li>
       </li>
       <li>
         <span id="second_sub">
@@ -68,7 +68,7 @@
             <li><a href="">Ремонт ПК</a></li>
         </ul>
       </li>
-      <li><a href="#" class="borderbotom">Стоимость диагностики</a></li>
+      <li><a href="services13.php" class="borderbotom">Стоимость диагностики</a></li>
     </div>
     
   </div>

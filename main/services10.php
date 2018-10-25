@@ -41,10 +41,11 @@
 <li>В результате заправленный картридж выдает больше отпечатков, чем новый.</li>
 </ul>
 <p style="text-align: center;"><span style="color: #ff0000;"><strong>Внимание! Некоторые картриджи не подлежат заправке!</strong></span></p>
+  <p style="text-align: center;">Все оригинальные картриджи Epson</p>
 <p style="text-align: center;"><img id="low_img" src="img/promo3.png" alt="promo3">
 </p>
 
-<p style="text-align: center;">Все оригинальные картриджи Epson</p>
+
 <p style="text-align: center;"><strong>В них установлен чип, который невозможно заменить/обнулить.</strong></p>
 <p>Как<strong>&nbsp;<span style="color: #ff0000;">альтернатива</span></strong>&nbsp;&ndash;&nbsp;предлагаем вам установить специальные&nbsp;<span style="color: #ff0000;"><strong>перезаправляемые картриджи (ПЗК)</strong></span>. Подробнее об установке и использовании ПЗК можно прочесть&nbsp;
   <a href="http://colorwave.by/stati-novosti/105-instruktsiya-snpch">здесь.</a></p>
