@@ -6,14 +6,36 @@
 }
 .menu-left{
   position: sticky;
-  top: 30px;
+  top: 0px;
   left: 0;
-  margin-top: 2.5em;
-  margin-bottom: 10em;
+  margin-top: 35px;
+  margin-bottom: 200px;
   font-family: 'Myriad Pro';
   font-weight: normal;
   font-size: 1.8em;
+  overflow: auto;
+  /* border:solid red 1px; */
+  max-height: 100vh;
+  border-bottom: 0.5px solid rgb(133, 133, 133);
 }
+/* SCROLL BAR */
+.menu-left::-webkit-scrollbar {
+  width: 8px;
+}
+.menu-left::-webkit-scrollbar-thumb {
+  width: 8px;
+  border-radius: 10px;
+  background-color:#a6a6a69f;
+  /* box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+}
+.menu-left::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: rgb(228, 228, 228);
+  /* box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+}
+
+/* SCROLL BAR END */
 .menu-left ul{
   margin: 0px;
   padding: 0px;

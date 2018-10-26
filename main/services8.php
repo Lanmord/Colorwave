@@ -33,7 +33,8 @@
 <p>Ваша печатная техника будет служить вам долго, а качество печати будет превосходным!</p>
 <p><span style="color: #ff0000;"><strong>Гарантия на все выполненные работы и замененные детали.</strong></span></p>
 <div class="table">
-<table class="text-page_table" style="border-color: red; margin-left: auto; margin-right: auto;" border="1">
+<div class="table-style low-table">
+<table class="text-page_table" style=" margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
 <td style="text-align: center;" colspan="5">
@@ -76,6 +77,7 @@
 </tr>
 </thead>
 </table>
+</div>
 </div>
 </div>
 </div>

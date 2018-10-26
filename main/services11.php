@@ -40,7 +40,8 @@
 <p>&nbsp;Неспециалисту эти подробности мало что скажут, поэтому приведем несколько&nbsp;типовых неисправностей&nbsp;с наиболее вероятными&nbsp;причинами и методами&nbsp;устранения:</p>
 <p>&nbsp;</p>
 <div class="table">
-<table style="border-color: red; float: left;" border="1" align="center">
+<div class="table-style low-table">
+<table style=" float: left;"align="center">
 <tbody>
 <tr>
 <td style="text-align: center;"><strong>Неисправность</strong></td>
@@ -104,6 +105,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;"><strong>Технология заправки картриджа в "Колор Вэйв":</strong></p>

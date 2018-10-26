@@ -24,7 +24,7 @@
 
     <h1 id="h1-main" align="center">Заправка картриджей Brother в Минске</h1>
 <h2>Качественно заправляем цветные и монохромные картриджи Brother в Минске!</h2>
-<h3>Заправка включает в себя:&nbsp;</h3>
+<h3>Заправка включает в себя:</h3>
 <ul style="list-style-type: disc;">
 <li>разборку, очистку картриджа и его элементов</li>
 <li>засыпание высококачественного подходящего тонера</li>
@@ -33,8 +33,9 @@
 <p>Также к вашим услугам полный цикл обслуживание принтеров и МФУ: диагностика, ремонт, профилактика, обнуление принтеров Brother.</p>
 <p>Ваша печатная техника будет служить вам долго, а качество печати будет превосходным!</p>
 <p><span style="color: #ff0000;"><strong>Гарантия на все выполненные работы и замененные детали.</strong></span></p>
+<div class="table-style low-table">
 <div class="table">
-  <table class="text-page_table" style="border-color: red; margin-left: auto; margin-right: auto;" border="1">
+  <table class="text-page_table" style=" margin-left: auto; margin-right: auto;">
     <thead>
     <tr>
     <td style="text-align: center;" colspan="5">
@@ -253,6 +254,7 @@
     </tr>
     </thead>
     </table>
+</div>
 </div>
 </div>
 </div>

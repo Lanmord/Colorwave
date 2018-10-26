@@ -30,8 +30,9 @@
 <p style="text-align: center;"><span style="color: #ff0000;"><strong>Внимание!!!</strong></span></p>
 <p style="text-align: center;"><strong>При ремонте&nbsp;у нас&nbsp;- диагностика&nbsp;<span style="color: #ff0000;">БЕСПЛАТНО!</span></strong></p>
 <p style="text-align: center;"><strong>Вы оплачиваете диагностику, ТОЛЬКО в случае&nbsp;ВАШЕГО ОТКАЗА&nbsp;ОТ РЕМОНТА!</strong></p>
+<div class="table-style">
+<table style="border-color: red; width: 100%; max-width: 1500px; margin-left: auto; margin-right: auto;">
 
-<table style="border-color: red; width: 100%; max-width: 1500px; margin-left: auto; margin-right: auto;" border="1px" cellpadding="10">
   <tbody>
   <tr>
   <td style="width: 96px;"><strong>&nbsp;Оборудование</strong></td>
@@ -54,7 +55,9 @@
   <td style="width: 66px;">от 5р. - 7р.</td>
   </tr>
   </tbody>
+
   </table>
+</div>
   <br>
 
 

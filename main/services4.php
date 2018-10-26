@@ -37,8 +37,8 @@
     <p>Рекомендуем ознакомиться с полезной статьей&nbsp;<a style="color: rgb(37, 77, 255);" href="http://colorwave.by/stati-novosti/106-zashchita-ot-zapravok-v-printerakh-samsung">Защита от заправок в принтерах Samsung</a>.</p>
     <div class="table">
 
-
-      <table class="text-page_table" style="border-color: red; margin-left: auto; margin-right: auto;" border="1">
+<div class="table-style low-table">
+      <table class="text-page_table" style="border-color: red; margin-left: auto; margin-right: auto;">
         <thead>
         <tr style="text-align: center;">
         <td colspan="5">
@@ -356,7 +356,7 @@
         </tr>
         </thead>
         </table>
-        
+        </div>
     </div>
 
 </div>

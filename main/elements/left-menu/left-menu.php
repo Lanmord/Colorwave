@@ -1,4 +1,4 @@
-
+<!-- МОБИЛЬНАЯ ВЕРСИЯ -->
     <div class="menu-left-mobile">
     <div class="menu-left-mob-btn"></div>
       <div class="menu-left-mob">
@@ -36,8 +36,12 @@
           <li><a href="#" class="borderbotom">Стоимость диагностики</a></li>
         </div>
       </div>
+
+
+      <!-- ДЕСКТОПНАЯ ВЕРСИЯ -->
   <div class="menu-left-wrapper">
     <div class="menu-left">
+
       <li><span id="first_sub">
         Заправка и восстановление картриджей 
         <i id="first_arrow" class="lnr lnr-chevron-right"></i>
@@ -55,20 +59,47 @@
          <li><a href="services11.php">Восстановление и ремонт картриджей</a></li>
         </ul>
       </li>
+
         <li><a href="services12.php">Ремонт и обслуживание принтеров</a></li>
-      </li>
+
+        <li><a href="services21.php">Цена на ремонт ПК, ноутбуков и планшетов</a></li>
+
+        <li><a href="services13.php" >Стоимость диагностики</a></li>
+
       <li>
         <span id="second_sub">
-        Ремонт ПК, ноутбуков и планшетов
+          Ремонт и обслуживание ноутбуков
         <i id="second_arrow" class="lnr lnr-chevron-right"></i>
       </span>
         <ul id="second_ul">
-            <li><a href="">Цена на ремонт техники</a></li>
-            <li><a href="">Ремонт ноутбуков</a></li>
-            <li><a href="">Ремонт ПК</a></li>
+            <li><a href="services22.php">Ремонт ноутбуков</a></li>
+            <li><a href="services23.php">Чистка ноутбука от пыли</a></li>
+            <li><a href="services24.php">Ремонт и замена разъема питания или USB</a></li>
+            <li><a href="services25.php">Ремонт зарядных устройств для ноутбуков</a></li>
+            <li><a href="services26.php">Ремонт корпуса ноутбука</a></li>
+            <li><a href="services27.php">Ремонт и восстановление батарей ноутбуков</a></li>
+            <li><a href="services28.php">Замена или ремонт клавиатуры ноутбука</a></li>
+            <li><a href="services29.php">Ремонт материнской платы ноутбука</a></li>
+            <li><a href="services30.php">Настройка ноутбука и переустановка Windows</a></li>
+            <li><a href="services31.php">Ремонт и замена экрана ноутбука</a></li>
         </ul>
       </li>
-      <li><a href="services13.php" class="borderbotom">Стоимость диагностики</a></li>
+
+      <li>
+        <span id="second_sub">
+          Ремонт и обслуживание компьютеров
+        <i id="second_arrow" class="lnr lnr-chevron-right"></i>
+      </span>
+        <ul id="second_ul">
+            <li><a href="services41.php">Ремонт компьютеров</a></li>
+            <li><a href="services42.php">Модернизация компьютера</a></li>
+            <li><a href="services43.php">Профилактика компьютера</a></li>
+            <li><a href="services44.php">Ремонт системных блоков</a></li>
+        </ul>
+      </li>
+
+      <li class="borderbotom"><a href="">Ремонт навигаторов и видеорегистраторов</a></li>
+
     </div>
     
   </div>

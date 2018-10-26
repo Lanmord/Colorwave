@@ -36,8 +36,8 @@
 <div id="middlecol" class="span8 sidebar_left">
   <div class="inside">
   <div class="item-page">
-  <div>
-  <table class="text-page_table" style="border: 1px solid red; margin-left: auto; margin-right: auto;" border="1">
+  <div class="table-style low-table">
+  <table class="text-page_table" style="margin-left: auto; margin-right: auto;">
   <thead>
   <tr>
   <td colspan="8">
@@ -430,6 +430,7 @@
   </div>
   </div>
   </div>
+</div>
 
 </div>
 </div>
