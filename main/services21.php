@@ -22,7 +22,7 @@
     <?php include('elements/left-menu/left-menu.php');?>
   <div class="content">
 <div class="table-style">
- <h1 id="h1-main" align="center">На ремонт ПК, ноутбуков и планшетов</h1>
+ <h1 id="h1-main" align="center">Ремонт ПК, ноутбуков и планшетов</h1>
 
 <table class="text-page_table" style=" margin-left: auto; margin-right: auto;">
 <tbody>

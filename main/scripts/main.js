@@ -237,25 +237,25 @@ $(".menu-left-mob-btn").click(function() {
 
 
 	 
- $("#first_sub").click(function() {
+//  $("#first_sub").click(function() {
 	 
-	 if ($("#first_ul:visible").size() > 0) {
+// 	 if ($("#first_ul:visible").size() > 0) {
 		 
-		 $('#first_arrow').removeClass('active');
-		 }
+// 		 $('#first_arrow').removeClass('active');
+// 		 }
 		 
-		 else {
-		 $('#first_arrow').addClass('active');
-		 }
- });
- $("#second_sub").click(function() {
+// 		 else {
+// 		 $('#first_arrow').addClass('active');
+// 		 }
+//  });
+//  $("#second_sub").click(function() {
 	 
-	 if ($("#second_ul:visible").size() > 0) {
+// 	 if ($("#second_ul:visible").size() > 0) {
 		 
-		 $('#second_arrow').removeClass('active');
+// 		 $('#second_arrow').removeClass('active');
 
-		 } 
-		 else {
-		 $('#second_arrow').addClass('active');
-		 }
- });
+// 		 } 
+// 		 else {
+// 		 $('#second_arrow').addClass('active');
+// 		 }
+//  });

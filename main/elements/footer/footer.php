@@ -7,10 +7,10 @@
           Услуги
           <span class="lnr lnr-chevron-down"></span>
         </a>
-        <a href="#" class="child">Заправка картриджей</a>
-        <a href="#" class="child">Ремонт ноутбуков, компьютеров</a>
-        <a href="#" class="child">Ремонт принтеров</a>
-        <a href="#" class="child">Ремонт гаджетов</a>
+        <a href="services1.php" class="child">Заправка картриджей</a>
+        <a href="services21.php" class="child">Ремонт техники</a>
+        <a href="services12.php" class="child">Ремонт принтеров</a>
+        <a href="services45.php" class="child">Ремонт гаджетов</a>
         <a href="#" class="old" id="padding2">
           Продукция
           <span class="lnr lnr-chevron-down"></span>
@@ -40,10 +40,10 @@
           СБ : с 11.00 до 17.00<br>
           ВС : выходной
         </span>
-        <span class="mts padding">+375 29 560 25 25 <img class="padding" src="img/mts.png" alt="mts" width="15px">
+        <span class="mts padding">+375 29 560 25 25 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/mts.png" alt="mts" width="15px">
         </span>
-        <span class="velcom">+375 44 560 25 25 <img class="padding" src="img/velcom.png" alt="mts" width="16px"></span>
-        <span class="city padding">+375 17 343 39 62 <img class="padding" src="img/city.png" alt="mts" width="15px"></span>
+        <span class="velcom">+375 44 560 25 25 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/velcom.png" alt="mts" width="16px"></span>
+        <span class="city padding">+375 17 343 39 62 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/city.png" alt="mts" width="15px"></span>
         <span class="addres padding">
           Время работы - ТЦ Глобо (ул.Уманская, 54):
           <span class="lnr lnr-map-marker"></span>
@@ -52,9 +52,9 @@
           ПН - ПТ : с 11.00 до 18.00<br>
           СБ - ВС : выходной
         </span>
-        <span class="mts padding">+375 29 77 99 710 <img class="padding" src="img/mts.png" alt="mts" width="15px">
+        <span class="mts padding">+375 29 77 99 710 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/mts.png" alt="mts" width="15px">
         </span>
-        <span class="velcom">+375 44 77 99 710 <img class="padding" src="img/velcom.png" alt="mts" width="16px"></span>
+        <span class="velcom">+375 44 77 99 710 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/velcom.png" alt="mts" width="16px"></span>
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite"
           crossorigin="anonymous">
@@ -79,6 +79,6 @@
         © 2018 Сервисный центр Колор Вэйв - ремонт ноутбуков, компьютеров, <br>
         принтеров в Минске. All Rights Reserved.
       </span>
-      <img src="img/logo_grey.png" alt="logo colorwave">
+      <img onselectstart="return false" onmousedown="return false" src="img/logo_grey.png" alt="logo colorwave">
     </div>
   </section>

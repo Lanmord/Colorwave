@@ -32,7 +32,7 @@
                 <div class="slider_img_inner2">
                 <h1 class="wow bounceInDown">Ремонт и обслуживание <br>принтеров</h1>
                 <h2 class="wow fadeInRightBig" data-wow-delay="0.5s">Быстро, качественно <br> и по отличной цене!</h2>
-                <a href="#" class="btn_slider wow fadeInUpBig" data-wow-delay="0.7s">Подробнее</a>
+                <a href="services12.php" class="btn_slider wow fadeInUpBig" data-wow-delay="0.7s">Подробнее</a>
               </div>
               </div>
             </div>
@@ -67,7 +67,7 @@
   </header>
   <section class="flex color1">
     <div class="services">
-      <a class="box1" href="#">
+      <a class="box1" href="services1.php">
         <div class="services_container">
           <h1>Заправка картриджей</h1>
           <span>
@@ -78,7 +78,7 @@
           </span>
         </div>
       </a>
-      <a class="box2" href="#">
+      <a class="box2" href="services21.php">
         <div class="services_container">
           <h1>Ремонт техники</h1>
           <span>
@@ -89,7 +89,7 @@
           </span>
         </div>
       </a>
-      <a class="box3" href="#">
+      <a class="box3" href="services12.php">
         <div class="services_container">
           <h1>Ремонт принтеров</h1>
           <span>
@@ -102,7 +102,7 @@
           </span>
         </div>
       </a>
-      <a class="box4" href="#">
+      <a class="box4" href="services45.php">
         <div class="services_container">
           <h1>Ремонт гаджетов</h1>
           <span>
@@ -283,7 +283,7 @@
       </div>
     </div>
   </section>
-  <section id="advant" class="flex">
+  <section id="advant" class="flex" onselectstart="return false" onmousedown="return false">
     <h1>Наши Преимущества</h1>
     <div class="advantages">
       <div id="list" class="list1">
@@ -404,7 +404,7 @@
     </div>
   </section>
   <section class="flex">
-    <div class="brands flex">
+    <div class="brands flex" onselectstart="return false" onmousedown="return false">
       <ul class="brands_inner">
         <li id="passive" class="bre1"><img id="active" src="img/brother_active.png" alt="brother logo"></li>
         <li id="passive" class="bre2"><img id="active" src="img/samsung_active.png" alt="sumsung logo"></li>
@@ -415,7 +415,9 @@
       </ul>
     </div>
   </section>
+  
   <?php include('elements/footer/footer.php');?>
+
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="scripts/jquery.maskedinput.min.js"></script>
   <script src="scripts/wow.min.js"></script>

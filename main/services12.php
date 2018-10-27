@@ -23,7 +23,7 @@
   <div class="content">
 
  
-<h1 id="h1-main" align="center" >На ремонт и обслуживание принтеров</h1>
+<h1 id="h1-main" align="center" >Ремонт и обслуживание принтеров</h1>
 
 <div class="table-style">
 <table style="margin-left: auto; margin-right: auto;" >

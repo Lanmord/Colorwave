@@ -108,7 +108,7 @@
   display: none;
 }
 .menu-left-mob-btn-active{
- top: 260px;
+ top: 220px;
  right: 0;
  left: auto;
  transform: scale(-1, 1);
@@ -244,5 +244,10 @@
 @media (max-width: 400px){
   .menu-left-mob{
     font-size: 1.4em;
+  }
+}
+@media (max-width: 330px){
+  .menu-left-mob li ul li a {
+    padding-left: 25px;
   }
 }

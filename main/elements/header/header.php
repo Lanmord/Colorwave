@@ -1,7 +1,7 @@
 <div class="logo_panel flex">
       <div class="logo_panel_inner">
         <div class="logo flex">
-          <a href="#" class="img_logo"></a>
+          <a href="index.php" class="img_logo"></a>
           <span>
             Диагностика, ремонт и <br>
             обслуживание техники.
@@ -11,14 +11,14 @@
           <div class="contact_wrap">
             <div class="contact">
               <span id="main_addres">Лобанка, 14</span>
-              <span>+375 29 560 25 25 <img class="padding" src="img/mts.png" alt="mts" width="15px"></span>
-              <span>+375 44 560 25 25 <img class="padding" src="img/velcom.png" alt="mts" width="16px"></span>
-              <span>+375 17 343 39 62 <img class="padding" src="img/city.png" alt="mts" width="15px"></span>
+              <span>+375 29 560 25 25 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/mts.png" alt="mts" width="15px"></span>
+              <span>+375 44 560 25 25 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/velcom.png" alt="mts" width="16px"></span>
+              <span>+375 17 343 39 62 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/city.png" alt="mts" width="15px"></span>
             </div>
             <div class="contact">
               <span id="main_addres">ТЦ Глобо (ул.Уманская, 54)</span>
-              <span>+375 29 77 99 710 <img class="padding" src="img/mts.png" alt="mts" width="15px"></span>
-              <span>+375 44 77 99 710 <img class="padding" src="img/velcom.png" alt="mts" width="16px"></span>
+              <span>+375 29 77 99 710 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/mts.png" alt="mts" width="15px"></span>
+              <span>+375 44 77 99 710 <img onselectstart="return false" onmousedown="return false" class="padding" src="img/velcom.png" alt="mts" width="16px"></span>
             </div>
           </div>
           <a href="#" id="feedback" class="btn">Консультация</a>
@@ -34,9 +34,9 @@
             <ul class="menu_drop">
               <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="services1.php">Заправка и восстановление
                   картриджей</a></li>
-              <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="#">Ремонт и обслуживание принтеров</a></li>
-              <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="#">Ремонт ПК, ноутбуков, планшетов</a></li>
-              <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="#">Стоимость диагностики</a></li>
+              <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="services12.php">Ремонт и обслуживание принтеров</a></li>
+              <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="services21.php">Ремонт ПК, ноутбуков, планшетов</a></li>
+              <li><span class="lnr lnr-chevron-right colorArrow"></span><a href="services13.php">Стоимость диагностики</a></li>
             </ul>
             <a class="main_btn">
            
@@ -55,15 +55,15 @@
       <!-- BURGER MENU  -->
       <div class="menu-mobile">
         <ul>
-          <li> <a href="#"> Главная</a></li>
+          <li> <a href="index.php"> Главная</a></li>
           <li class="mob_btn sub_menu">
             <a href="#">Цены на услуги</a><span class="lnr lnr-chevron-right"></span>
           </li>
           <ul class="drop-menu">
             <li><a href="services1.php">Заправка и восстановление картриджей</a></li>
-            <li><a href="#">Ремонт и обслуживание принтеров</a></li>
-            <li><a href="#">Ремонт, ПК, ноутбуков, планшетов</a></li>
-            <li><a href="#">Стоимость диагноститки</a></li>
+            <li><a href="services12.php">Ремонт и обслуживание принтеров</a></li>
+            <li><a href="services21.php">Ремонт, ПК, ноутбуков, планшетов</a></li>
+            <li><a href="services13.php">Стоимость диагноститки</a></li>
           </ul>
           <li><a href="products.php">Продукция</a></li>
           <li><a href="#">О нас</a></li>
