@@ -191,3 +191,9 @@ a.arrow_top:hover{
     padding-top: 3em;
   }
 }
+@media (max-width: 1140px){
+  .footer,
+  .pod_footer{
+    width: 80%;
+  }
+}

@@ -172,10 +172,12 @@ responsive: [
 
 			$(".menu-mobile").removeClass('active');
 			$("html").css("overflow-y","scroll");
+			$('html, body').removeClass('no-scroll');
 		} 
 		else {
 			$('.menu-mobile').toggleClass('active');
 			$("html").css("overflow-y","hidden");
+			$('html, body').addClass('no-scroll');
 		}
 		});
 	
@@ -227,11 +229,13 @@ $(".menu-left-mob-btn").click(function() {
 		$(".menu-left-mob").removeClass('active');
 		$("html").css("overflow-y","scroll");
 		$(".menu-left-mob-btn").removeClass('menu-left-mob-btn-active');
+		$('html, body').removeClass('no-scroll');
 	} 
 	else {
 		$('.menu-left-mob').addClass('active');
 		$("html").css("overflow-y","hidden");
 		$(".menu-left-mob-btn").addClass('menu-left-mob-btn-active');
+		$('html, body').addClass('no-scroll');
 	}
 	});
 
