@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <header>
+  
    
   <?php include('elements/header/header.php');?>
 
@@ -64,7 +64,6 @@
         <span class="lnr lnr-chevron-right-circle next"></span>
       </div>
     </section>
-  </header>
   <section class="flex color1">
     <div class="services">
       <a class="box1" href="services1.php">
@@ -114,175 +113,7 @@
       </a>
     </div>
   </section>
-  <section class="flex">
-    <div class="slider_best flex " onselectstart="return false" onmousedown="return false">
-      <h1>
-        Лучшие Товары
-      </h1>
-      <div class="arrows">
-        <div id="slide1" class="lnr lnr-chevron-left"></div>
-        <div id="slide2" class="lnr lnr-chevron-right"></div>
-      </div>
-      <div class="slider_best_inner">
 
-        <div class="slider_best_items">
-          <div id="img1" class="img_best"></div>
-          <div class="status">ТОП</div>
-          <span class="price">от</span>
-          <span id="amount" class="price">9</span>
-          <span class="price">бел.руб</span>
-          <span class="description">Офисная бумага Svetocopy</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img2" class="img_best"></div>
-          <div class="status">ТОП</div>
-          <span class="price">от</span>
-          <span id="amount" class="price">50</span>
-          <span class="price">бел.руб</span>
-          <span class="description">Комплект чернил для струйного принтера... </span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img3" class="img_best"></div>
-          <div class="status">ТОП</div>
-          <span class="price">от</span>
-          <span id="amount" class="price">6.60</span>
-          <span class="price">бел.руб</span>
-          <span class="description">Фотобумага Ink-Mate матовая</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img4" class="img_best"></div>
-          <div class="status">ТОП</div>
-          <span class="price">от</span>
-          <span id="amount" class="price">200</span>
-          <span class="price">бел.руб</span>
-          <span class="description">Комплект чернил Ink Mate </span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img5" class="img_best"></div>
-          <div class="status">ТОП</div>
-          <span class="price">от</span>
-          <span id="amount" class="price">6.60</span>
-          <span class="price">бел.руб</span>
-          <span class="description">Фотобумага Ink-Mate матовая</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img6" class="img_best"></div>
-          <div class="status">ТОП</div>
-          <span class="price">от</span>
-          <span id="amount" class="price">9</span>
-          <span class="price">бел.руб</span>
-          <span class="description">Офисная бумага Svetocopy</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img7" class="img_best"></div>
-          <div class="status">ТОП</div>
-          <span class="price">от</span>
-          <span id="amount" class="price">6.60</span>
-          <span class="price">бел.руб</span>
-          <span class="description">Фотобумага Ink-Mate матовая</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="line-main"></div>
-  </section>
-  <section class="flex">
-    <div class="slider_best flex " onselectstart="return false" onmousedown="return false">
-      <h1>
-        Товары на Скидке
-      </h1>
-      <div class="arrows">
-        <div id="slide1" class="lnr lnr-chevron-left owl-left"></div>
-        <div id="slide2" class="lnr lnr-chevron-right owl-right"></div>
-      </div>
-      <div class="slider_best_inner2">
-
-        <div class="slider_best_items">
-          <div id="img1" class="img_best"></div>
-          <div id="sale_status" class="status">СКИДКА</div>
-          <span id="red_price" class="price">от</span>
-          <span id="amount" class="price red_price">9</span>
-          <span id="red_price" class="price">бел.руб</span>
-          <span class="description">Офисная бумага Svetocopy</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img2" class="img_best"></div>
-          <div id="sale_status" class="status">СКИДКА</div>
-          <span id="red_price" class="price">от</span>
-          <span id="amount" class="price red_price">50</span>
-          <span id="red_price" class="price">бел.руб</span>
-          <span class="description">Комплект чернил для струйного принтера... </span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img3" class="img_best"></div>
-          <div id="sale_status" class="status">СКИДКА</div>
-          <span id="red_price" class="price">от</span>
-          <span id="amount" class="price red_price">6.60</span>
-          <span id="red_price" class="price">бел.руб</span>
-          <span class="description">Фотобумага Ink-Mate матовая</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img4" class="img_best"></div>
-          <div id="sale_status" class="status">СКИДКА</div>
-          <span id="red_price" class="price">от</span>
-          <span id="amount" class="price red_price">200</span>
-          <span id="red_price" class="price">бел.руб</span>
-          <span class="description">Комплект чернил Ink Mate </span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img5" class="img_best"></div>
-          <div id="sale_status" class="status">СКИДКА</div>
-          <span id="red_price" class="price">от</span>
-          <span id="amount" class="price red_price">6.60</span>
-          <span id="red_price" class="price">бел.руб</span>
-          <span class="description">Фотобумага Ink-Mate матовая</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img6" class="img_best"></div>
-          <div id="sale_status" class="status">СКИДКА</div>
-          <span id="red_price" class="price">от</span>
-          <span id="amount" class="price red_price">9</span>
-          <span id="red_price" class="price">бел.руб</span>
-          <span class="description">Офисная бумага Svetocopy</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-        <div class="slider_best_items">
-          <div id="img7" class="img_best"></div>
-          <div id="sale_status" class="status">СКИДКА</div>
-          <span id="red_price" class="price">от</span>
-          <span id="amount" class="price red_price">6.60</span>
-          <span id="red_price" class="price">бел.руб</span>
-          <span class="description">Фотобумага Ink-Mate матовая</span>
-          <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <section class="flex color2">
-    <div class="sale flex">
-      <div class="sale_inner">
-        <h1>ВСЕМ ПОСЕТИТЕЛЯМ ТЦ ГЛОБО</h1>
-        <span>На заправку картриджа, <br>
-          чистку ноутбука и ПК, ремонт принтеров.</span>
-        <h1>СКИДКА 20%</h1>
-        <a href="#" class="btn">Смотреть</a>
-      </div>
-    </div>
-  </section>
   <section id="advant" class="flex" onselectstart="return false" onmousedown="return false">
     <h1>Наши Преимущества</h1>
     <div class="advantages">
@@ -352,6 +183,167 @@
       </div>
     </div>
   </section>
+  <section>
+      <div class="line-main"></div>
+    </section>
+  <section class="flex">
+      <div class="slider_best flex " onselectstart="return false" onmousedown="return false">
+        <h1>
+          Лучшие Товары
+        </h1>
+        <div class="arrows">
+          <div id="slide1" class="lnr lnr-chevron-left"></div>
+          <div id="slide2" class="lnr lnr-chevron-right"></div>
+        </div>
+        <div class="slider_best_inner">
+  
+          <div class="slider_best_items">
+            <div id="img1" class="img_best"></div>
+            <div class="status">ТОП</div>
+            <span class="price">от</span>
+            <span id="amount" class="price">9</span>
+            <span class="price">бел.руб</span>
+            <span class="description">Офисная бумага Svetocopy</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img2" class="img_best"></div>
+            <div class="status">ТОП</div>
+            <span class="price">от</span>
+            <span id="amount" class="price">50</span>
+            <span class="price">бел.руб</span>
+            <span class="description">Комплект чернил для струйного принтера... </span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img3" class="img_best"></div>
+            <div class="status">ТОП</div>
+            <span class="price">от</span>
+            <span id="amount" class="price">6.60</span>
+            <span class="price">бел.руб</span>
+            <span class="description">Фотобумага Ink-Mate матовая</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img4" class="img_best"></div>
+            <div class="status">ТОП</div>
+            <span class="price">от</span>
+            <span id="amount" class="price">200</span>
+            <span class="price">бел.руб</span>
+            <span class="description">Комплект чернил Ink Mate </span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img5" class="img_best"></div>
+            <div class="status">ТОП</div>
+            <span class="price">от</span>
+            <span id="amount" class="price">6.60</span>
+            <span class="price">бел.руб</span>
+            <span class="description">Фотобумага Ink-Mate матовая</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img6" class="img_best"></div>
+            <div class="status">ТОП</div>
+            <span class="price">от</span>
+            <span id="amount" class="price">9</span>
+            <span class="price">бел.руб</span>
+            <span class="description">Офисная бумага Svetocopy</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img7" class="img_best"></div>
+            <div class="status">ТОП</div>
+            <span class="price">от</span>
+            <span id="amount" class="price">6.60</span>
+            <span class="price">бел.руб</span>
+            <span class="description">Фотобумага Ink-Mate матовая</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="line-main"></div>
+    </section>
+    <section class="flex">
+      <div class="slider_best flex " onselectstart="return false" onmousedown="return false">
+        <h1>
+          Товары на Скидке
+        </h1>
+        <div class="arrows">
+          <div id="slide1" class="lnr lnr-chevron-left owl-left"></div>
+          <div id="slide2" class="lnr lnr-chevron-right owl-right"></div>
+        </div>
+        <div class="slider_best_inner2">
+  
+          <div class="slider_best_items">
+            <div id="img1" class="img_best"></div>
+            <div id="sale_status" class="status">СКИДКА</div>
+            <span id="red_price" class="price">от</span>
+            <span id="amount" class="price red_price">9</span>
+            <span id="red_price" class="price">бел.руб</span>
+            <span class="description">Офисная бумага Svetocopy</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img2" class="img_best"></div>
+            <div id="sale_status" class="status">СКИДКА</div>
+            <span id="red_price" class="price">от</span>
+            <span id="amount" class="price red_price">50</span>
+            <span id="red_price" class="price">бел.руб</span>
+            <span class="description">Комплект чернил для струйного принтера... </span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img3" class="img_best"></div>
+            <div id="sale_status" class="status">СКИДКА</div>
+            <span id="red_price" class="price">от</span>
+            <span id="amount" class="price red_price">6.60</span>
+            <span id="red_price" class="price">бел.руб</span>
+            <span class="description">Фотобумага Ink-Mate матовая</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img4" class="img_best"></div>
+            <div id="sale_status" class="status">СКИДКА</div>
+            <span id="red_price" class="price">от</span>
+            <span id="amount" class="price red_price">200</span>
+            <span id="red_price" class="price">бел.руб</span>
+            <span class="description">Комплект чернил Ink Mate </span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img5" class="img_best"></div>
+            <div id="sale_status" class="status">СКИДКА</div>
+            <span id="red_price" class="price">от</span>
+            <span id="amount" class="price red_price">6.60</span>
+            <span id="red_price" class="price">бел.руб</span>
+            <span class="description">Фотобумага Ink-Mate матовая</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img6" class="img_best"></div>
+            <div id="sale_status" class="status">СКИДКА</div>
+            <span id="red_price" class="price">от</span>
+            <span id="amount" class="price red_price">9</span>
+            <span id="red_price" class="price">бел.руб</span>
+            <span class="description">Офисная бумага Svetocopy</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+          <div class="slider_best_items">
+            <div id="img7" class="img_best"></div>
+            <div id="sale_status" class="status">СКИДКА</div>
+            <span id="red_price" class="price">от</span>
+            <span id="amount" class="price red_price">6.60</span>
+            <span id="red_price" class="price">бел.руб</span>
+            <span class="description">Фотобумага Ink-Mate матовая</span>
+            <a href="#"><span class="lnr lnr-cart"></span>Подробнее</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
   <section class="flex color1">
     <div class="slider_news flex" onselectstart="return false" onmousedown="return false">
       <h1>Статьи</h1>

@@ -106,13 +106,17 @@ body{
   align-items: center;
 }
 nav{
+  position: sticky;
+  top: 0;
+  z-index: 999999;
   background-color: #2D2D2D;
+  border-top: solid rgb(105, 105, 105) 1px;
+  border-bottom: solid rgb(105, 105, 105) 1px;
 }
 .nav_inner{
   max-width: 1920px;
-  width: 75%;
+  width: 100%;
   height: 60px;
-  justify-content: flex-start;
 }
 .menu{
   padding: 0;
@@ -180,7 +184,7 @@ nav{
 } 
 .menu a{
   height: 100%;
-  text-transform: uppercase;
+  text-transform: none;
   color: rgb(193, 197, 214);
   font-size: 1.8em;
   font-family: 'Raleway';
@@ -249,10 +253,10 @@ nav{
   font-size: 3em;
   display: none;
   position: fixed;
-  height: calc(100vh - 83px);
+  height: calc(100vh - 73px) !important;
   max-height: 100%;
   width: 100%;
-  top: 83px;
+  top: 73px;
   left: -100%;
   z-index: 99999;
   background-color: rgb(56, 56, 56);
@@ -558,7 +562,6 @@ textarea {
 }
 @media (max-width: 1140px){
   .logo_panel_inner,
-   .nav_inner, 
    .footer,
    .pod_footer{
      width: 90%;
@@ -566,11 +569,9 @@ textarea {
 }
 @media (max-width: 890px){
   nav{
-    height: 83px;
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; */
+    height: 73px !important;
+    position: relative;
+    border: 0;
   }
   nav.flex{
     justify-content: flex-end;
@@ -585,14 +586,14 @@ textarea {
     display: none;
   }
   .logo{
-    z-index: 999;
+    z-index: 99999999 !important;
     position: absolute;
-    top: 7px;
+    top: 5px !important;
     left: 30px;
   }
   .img_logo{
     background-image: url(../../img/logo_horizontal.png);
-    width: 340px;
+    width: 300px !important;
   }
   .menu-mobile{
     display: block;
@@ -603,18 +604,16 @@ textarea {
 }
 @media (max-width: 480px){
   .img_logo{
-    width: 250px;
-    position: absolute;
-    left: 2px;
-    top: 10px;
+    width: 230px !important;
+    left: -15px !important;
+    top: 6px !important;
   }
 }
-@media (max-width: 320px){
+@media (max-width: 340px){
   .img_logo{
-    width: 200px;
-    position: absolute;
-    left: -10px;
-    top: 15px;
+    width: 210px !important;
+    left: -17px !important;
+    top: 8px !important;
   }
 }
 @media (max-width: 610px){

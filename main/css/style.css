@@ -340,7 +340,7 @@ nav{
 .slider_wrap{
   position: relative;
   width: 100%;
-  padding-top: 34.5%;
+  padding-top: 25%;
 }
 .slider_wrap_inner{
   position: absolute;
@@ -354,11 +354,11 @@ nav{
   font-size: 3em;
   background-image: url(../img/slide_img.jpg);
   background-repeat: no-repeat;
-  background-size: 45%;
+  background-size: 30%;
   background-position: 75%;
   position: relative;
   width: 100%;
-  padding-top: 34.5%;
+  padding-top: 25%;
 }
 .slide_img2{
   color: black;
@@ -369,7 +369,7 @@ nav{
   background-position: center;
   position: relative;
   width: 100%;
-  padding-top: 34.5%;
+  padding-top: 25%;
 }
 .slide_img3{
   color: black;
@@ -380,7 +380,7 @@ nav{
   background-position: center;
   position: relative;
   width: 100%;
-  padding-top: 34.5%;
+  padding-top: 25%;
 }
 .slider_img_inner{
   display: flex;
@@ -391,6 +391,7 @@ nav{
   width: 100%;
   top: 0;
   left: 0;
+  font-size: 0.9em;
 }
 .slider_img_inner2{
   font-family: 'Raleway';
@@ -401,7 +402,7 @@ nav{
   width: 65%;
 }
 .btn_slider{
-  margin-top: 25px;
+  margin-top: 1em;
   color: white;
   font-size: .5em;
   font-family:'Myriad Pro';
@@ -1358,9 +1359,9 @@ nav{
   font-size: 3em;
   display: none;
   position: absolute;
-  height: calc(100vh - 83px);
+  height: calc(100vh - 73px);
   width: 100%;
-  top: 83px;
+  top: 73px;
   left: -100%;
   z-index: 99999;
   background-color: rgb(56, 56, 56);
