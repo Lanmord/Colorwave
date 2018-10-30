@@ -19,7 +19,7 @@
 
   
  <div class="wrapper">
-    <?php include('elements/left-menu/left-menu.php');?>
+ <?php include('elements/left-menu_cartridj/left-menu_cartridj.php');?>
   <div class="content">
 <h1 id="h1-main" align="center">Заправка картриджей HP в Минске</h1>
 <h2>Качественно заправляем цветные и монохромные картриджи HP в Минске!</h2>

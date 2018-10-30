@@ -136,16 +136,17 @@
   <script>
    $(document).ready(function() {
    $(".menu-left ul").hide();
+   $(".menu-left #first_ul").show();
 	 $(".menu-left li span").click(function() {
 			 $(".menu-left ul:visible").slideUp("normal");
 			 if (($(this).next().is("ul")) && (!$(this).next().is(":visible"))) {
 					 $(this).next().slideDown("normal");
 			 }
 	 });
-	 });
-
-		$(document).ready(function() {
-	 $(".menu-left-mob ul").hide();
+   });
+   $(document).ready(function() {
+   $(".menu-left-mob ul").hide();
+   $(".menu-left-mob #first_ul").show();
 	 $(".menu-left-mob li span").click(function() {
 			 $(".menu-left-mob ul:visible").slideUp("normal");
 			 if (($(this).next().is("ul")) && (!$(this).next().is(":visible"))) {

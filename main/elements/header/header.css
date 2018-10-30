@@ -108,7 +108,7 @@ body{
 nav{
   position: sticky;
   top: 0;
-  z-index: 999999;
+  z-index: 999 !important;
   background-color: #2D2D2D;
   border-top: solid rgb(105, 105, 105) 1px;
   border-bottom: solid rgb(105, 105, 105) 1px;
@@ -362,7 +362,7 @@ nav{
 .modal{
   display:none;
   position: fixed;
-  z-index:99;
+  z-index:9999;
   left: 0;
   top:0;
   height: 100%;
@@ -586,8 +586,7 @@ textarea {
     display: none;
   }
   .logo{
-    z-index: 99999999 !important;
-    position: absolute;
+    z-index: 9999 !important;
     top: 5px !important;
     left: 30px;
   }
@@ -604,6 +603,7 @@ textarea {
 }
 @media (max-width: 480px){
   .img_logo{
+    position: absolute !important;
     width: 230px !important;
     left: -15px !important;
     top: 6px !important;
@@ -611,6 +611,7 @@ textarea {
 }
 @media (max-width: 340px){
   .img_logo{
+    position: absolute !important;
     width: 210px !important;
     left: -17px !important;
     top: 8px !important;

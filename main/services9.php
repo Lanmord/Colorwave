@@ -19,7 +19,7 @@
 
   
  <div class="wrapper">
-    <?php include('elements/left-menu/left-menu.php');?>
+ <?php include('elements/left-menu_cartridj/left-menu_cartridj.php');?>
   <div class="content">
   <h1 id="h1-main" align="center">Заправка лазерных картриджей в Минске</h1>
   <img src="img/promo.jpg" alt="promo">

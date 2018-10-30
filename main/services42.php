@@ -19,7 +19,7 @@
 
   
  <div class="wrapper">
-    <?php include('elements/left-menu/left-menu.php');?>
+ <?php include('elements/left-menu_pc/left-menu_pc.php');?>
   <div class="content">
 
 <h1 id="h1-main" align="center">Модернизация компьютера ПК в Минске</h1>

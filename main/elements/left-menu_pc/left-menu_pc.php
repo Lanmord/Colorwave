@@ -51,7 +51,7 @@
             Ремонт и обслуживание компьютеров
           <i id="second_arrow" class="lnr lnr-chevron-right"></i>
         </span>
-          <ul id="second_ul">
+          <ul id="third_ul">
               <li><a href="services41.php">Ремонт компьютеров</a></li>
               <li><a href="services42.php">Модернизация компьютера</a></li>
               <li><a href="services43.php">Профилактика компьютера</a></li>
@@ -117,7 +117,7 @@
           Ремонт и обслуживание компьютеров
         <i id="second_arrow" class="lnr lnr-chevron-right"></i>
       </span>
-        <ul id="second_ul">
+        <ul id="third_ul">
             <li><a href="services41.php">Ремонт компьютеров</a></li>
             <li><a href="services42.php">Модернизация компьютера</a></li>
             <li><a href="services43.php">Профилактика компьютера</a></li>
@@ -136,16 +136,18 @@
   <script>
    $(document).ready(function() {
    $(".menu-left ul").hide();
+   $(".menu-left #third_ul").show();
 	 $(".menu-left li span").click(function() {
 			 $(".menu-left ul:visible").slideUp("normal");
 			 if (($(this).next().is("ul")) && (!$(this).next().is(":visible"))) {
 					 $(this).next().slideDown("normal");
 			 }
 	 });
-	 });
+   });
 
-		$(document).ready(function() {
-	 $(".menu-left-mob ul").hide();
+   $(document).ready(function() {
+   $(".menu-left-mob ul").hide();
+   $(".menu-left-mob #third_ul").show();
 	 $(".menu-left-mob li span").click(function() {
 			 $(".menu-left-mob ul:visible").slideUp("normal");
 			 if (($(this).next().is("ul")) && (!$(this).next().is(":visible"))) {

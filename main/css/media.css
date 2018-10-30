@@ -100,7 +100,7 @@
   }
   .img_logo{
     background-image: url(../img/logo_horizontal.png);
-    width: 340px;
+    width: 300px;
   }
   nav{
     height: 83px;
@@ -471,6 +471,7 @@
     font-size: 1.1em;
     padding: 8px 15px;
   }
+}
   @media (max-width: 340px){
     .slider_img_inner{
       font-size: 0.35em;
