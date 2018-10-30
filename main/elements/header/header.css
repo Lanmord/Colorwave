@@ -586,9 +586,10 @@ textarea {
     display: none;
   }
   .logo{
+    position: absolute !important;
     z-index: 9999 !important;
     top: 5px !important;
-    left: 30px;
+    left: 30px !important;
   }
   .img_logo{
     background-image: url(../../img/logo_horizontal.png);
