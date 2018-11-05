@@ -29,7 +29,25 @@ $(document).mouseup(function (e) { // по клику вне попапа
         $('.js-overlay-thank-you').fadeOut();
     }
 });
- 
+ //слайдер-мобильный 
+ $('.slider_advant').slick({
+  infinite: true,
+  slidesToShow: 1,
+	slidesToScroll: 1,
+	dots: false,
+	prevArrow:('.adv2'),
+	nextArrow:('.adv3'),
+});
+
+$('.brands-slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+	slidesToScroll: 1,
+	dots: false,
+	prevArrow:('.adv4'),
+	nextArrow:('.adv5'),
+});
+
 // слайдеры 
 $(document).ready(function () {
 	$('.slider_best_inner').slick({
@@ -53,7 +71,7 @@ responsive: [
   }
 },
 {
-  breakpoint: 1025,
+  breakpoint: 660,
   settings: {
 	slidesToShow: 2,
 	slidesToScroll: 1,
@@ -61,7 +79,7 @@ responsive: [
   }
 },
 {
-  breakpoint: 780,
+  breakpoint: 470,
   settings: {
 	slidesToShow: 1,
 	slidesToScroll: 1,
@@ -96,7 +114,7 @@ responsive: [
   }
 },
 {
-  breakpoint: 1025,
+  breakpoint: 660,
   settings: {
 	slidesToShow: 2,
 	slidesToScroll: 1,
@@ -104,7 +122,7 @@ responsive: [
   }
 },
 {
-  breakpoint: 780,
+  breakpoint: 470,
   settings: {
 	slidesToShow: 1,
 	slidesToScroll: 1,

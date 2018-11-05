@@ -59,9 +59,7 @@
   .logo_panel_inner,
    .slider_img_inner,
    .slider_best,
-   .brands,
-   .footer,
-   .pod_footer{
+   .brands{
      width: 90%;
    }
    .sale,
@@ -232,7 +230,7 @@
     line-height: 35px;
   }
 }
-@media (max-width: 920px){
+@media (max-width: 740px){
   .advantages{
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 10px;
@@ -243,29 +241,24 @@
   "list5 list6";
   }
   #advant h1{
-    padding: 50px 0 20px 0;
+    padding: 25px 0 30px 0;
   }
 }
-@media (max-width: 600px){
+/* @media (max-width: 600px){
   .advantages{
     font-size: 0.8em;
   }
-}
-@media (max-width: 500px){
-  .advantages{
-    grid-template-columns: 1fr;
-    grid-row-gap: 0px;
-    grid-template-rows: repeat(6,1fr);
-    grid-template-areas: 
-  "list1"
-  "list2"
-  "list3"
-  "list4"
-  "list5"
-  "list6";
-  font-size: 1.2em;
+} */
+@media (max-width: 460px){
+  .hide{
+    display: none;
   }
-  
+  .flex.adv_mob{
+    display: block;
+  }
+  .slider_best .slider_best_items{
+    font-size: 1.3em;
+  }
 }
 @media (max-width: 700px){
     .brands{
@@ -295,29 +288,7 @@
      "bre6";
   }
 }
-@media (max-width: 930px){
-  .col1{
-    display: none;
-  }
-  
-}
-@media (max-width: 840px){
-    .pod_footer{
-      font-size: 1.4em;
-    }
-    .pod_footer img{
-      width: 80px;
-      height: 80px;
-    }
-}
-@media (max-width: 590px){
-  .col2{
-    font-size: 0.75em;
-  }
-  .pod_footer{
-    font-size: 1em;
-  }
-}
+
 @media (max-width: 480px){
   .img_logo{
     width: 250px;
@@ -335,9 +306,19 @@
   }
 }
 @media (max-width: 460px){
+  #advant h1 {  
+    font-size: 2.5em;
+  }
+  .line-main {
+    width: 85%;
+    margin: 25px auto 10px; 
+}
+.line2{
+  margin-top: 30px;
+}
   .slider_best h1{
     font-size: 2.5em;
-    margin-top: 70px;
+    /* margin-top: 70px; */
   }
   .slider_best.flex{
     align-content: flex-start;
@@ -345,21 +326,24 @@
   }
   .arrows{
     top: 25px;
-    left: 35%;
+    left: 7%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
   }
-  .line-main{
+  /* .line-main{
     margin: 0px  auto 0px;
-  }
+  } */
   .color2{
     margin-top: 10px;
   }
   .slider_news > h1{
-    margin-bottom: 15px;
-    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.8em;
   }
   #news.arrows{
-    top: 30px;
-    left: 10px;
+    top: 25px;
   }
   .news_item > .img_best{
     height: 180px;
@@ -375,13 +359,13 @@
   .footer{
     padding-top: 3em;
   }
+  .best_margin {
+    margin-bottom: 40px;
+}
 }
 @media (max-width: 366px){
-  #advant.flex{
-    font-size: 0.6em;
-  }
-  #advant h1{
-    font-size: 3.8em;
+  .advant-item{
+    font-size: 2em;
   }
   .img_logo {
     width: 210px;
@@ -471,6 +455,22 @@
     font-size: 1.1em;
     padding: 8px 15px;
   }
+  .arrows{
+   left: 0;
+    width: 100%;
+  }
+  .arrows > div{
+    margin: 0;
+   }
+   #ad-ar.arrows{
+    width: 90%;
+    margin: 0 auto;
+   }
+   #news.arrows{
+     left: 7%;
+    width: 80%;
+    margin: 0 auto;
+   }
 }
   @media (max-width: 340px){
     .slider_img_inner{
@@ -481,4 +481,28 @@
       font-size: 1.2em;
       padding: 5px 12px;
     }
+  }
+  @media (max-width: 500px){
+    .flex.hide-brand{
+      display: none;
+    }
+    .flex.brands-cont{
+      display: block;
+    }
+    .brands{
+      margin: 0 auto;
+      padding: 0;
+    }
+    #arrows-br.arrows{
+      top: 50px;
+      left: 0;
+      width: 88%;
+      display: flex;
+      justify-content: space-between; 
+      margin: 0 auto;
+      z-index: 9999;
+    }
+    #arrows-br.arrows > div {
+      margin-left: 0;
+  }
   }

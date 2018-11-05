@@ -112,7 +112,7 @@
     </div>
   </section>
 
-  <section id="advant" class="flex" onselectstart="return false" onmousedown="return false">
+  <section id="advant" class="flex hide" onselectstart="return false" onmousedown="return false">
     <h1>Наши Преимущества</h1>
     <div class="advantages">
       <div id="list" class="list1">
@@ -181,6 +181,68 @@
       </div>
     </div>
   </section>
+  <section id="advant" class="flex adv_mob" onselectstart="return false" onmousedown="return false">
+      <h1>Наши Преимущества</h1>
+      <div id="ad-ar" class="arrows">
+        <div id="slide3" class="lnr lnr-chevron-left adv2"></div>
+        <div id="slide4" class="lnr lnr-chevron-right adv3"></div>
+      </div>
+      <div class="slider_advant">
+        <div class="advant-item">
+          <img src="img/li1.png" alt="Опытные специалисты">
+          <h2>Опытные специалисты</h2>
+          <span>
+            7 лет профессионального<br>
+            опыта в сфере услуг.
+          </span>
+        </div>
+        <div class="advant-item">
+          <img src="img/li2.png" alt="Качество">
+          <h2>Качественно</h2>
+          <span>
+            Используем лучшие расходные<br>
+            материалы, среди основных: <br>
+            Static Control, Katun, IPM.
+          </span>
+        </div>
+        <div class="advant-item">
+          <img src="img/li3.png" alt="Доступные цены">
+          <h2>Доступные цены</h2>
+          <span>
+            Стараемся учитывать <br>
+            дешевую цену, чтоб печать была <br>
+            насыщенной и качественной.
+          </span>
+        </div>
+        <div class="advant-item">
+          <img src="img/li4.png" alt="Время заправки картриджа">
+          <h2>Время заправки</h2>
+          <span>
+            Одного картриджа в среднем<br>
+            составляет 7-15 мин.
+          </span>
+        </div>
+        <div class="advant-item">
+          <img src="img/li5.png" alt="Гарантия качества">
+          <h2>Гарантия качества</h2>
+          <span>
+            Гарантия до конца <br>
+            ресурса картриджа.<br>
+            На месяц использования.
+          </span>
+        </div>
+        <div class="advant-item">
+          <img src="img/li6.png" alt="Любая форма оплаты">
+          <h2>Любая форма оплаты</h2>
+          <span>
+            Наличная и безналичная <br>
+            форма расчетов. <br>
+            Взаимовыгодное сотрудничество!
+          </span>
+        </div>
+      </div>
+  </section>
+
   <section>
       <div class="line-main"></div>
     </section>
@@ -262,10 +324,10 @@
       </div>
     </section>
     <section>
-      <div class="line-main"></div>
+      <div class="line-main line2"></div>
     </section>
     <section class="flex">
-      <div class="slider_best flex " onselectstart="return false" onmousedown="return false">
+      <div class="slider_best flex best_margin" onselectstart="return false" onmousedown="return false">
         <h1>
           Товары на Скидке
         </h1>
@@ -393,7 +455,7 @@
 
     </div>
   </section>
-  <section class="flex">
+  <section class="flex hide-brand">
     <div class="brands flex" onselectstart="return false" onmousedown="return false">
       <ul class="brands_inner">
         <li id="passive" class="bre1"><img id="active" src="img/brother_active.png" alt="brother logo"></li>
@@ -403,6 +465,26 @@
         <li id="passive" class="bre5"><img id="active" src="img/panasonic_active.png" alt="panasonic logo"></li>
         <li id="passive" class="bre6"><img id="active" src="img/canon_active.png" alt="canon logo"></li>
       </ul>
+    </div>
+  </section>
+  <section class="flex brands-cont">
+      <div id="arrows-br" class="arrows">
+          <div id="slide5" class="lnr lnr-chevron-left adv4"></div>
+          <div id="slide6" class="lnr lnr-chevron-right adv5"></div>
+        </div>
+    <div class="brands flex brands-slider" onselectstart="return false" onmousedown="return false">
+      <div class="brands-item">
+        <img id="active" src="img/brother_active.png" alt="brother logo">
+        <img id="active" src="img/samsung_active.png" alt="sumsung logo">
+      </div>
+      <div class="brands-item">
+          <img id="active" src="img/panasonic_active.png" alt="panasonic logo">
+          <img id="active" src="img/canon_active.png" alt="canon logo">
+      </div>
+      <div class="brands-item">
+          <img id="active" src="img/Xerox_active.png" alt="Xerox logo">
+        <img id="active" src="img/hp_active.png" alt="hp logo">
+      </div>
     </div>
   </section>
   
