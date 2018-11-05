@@ -252,8 +252,8 @@
           Лучшие Товары
         </h1>
         <div class="arrows">
-          <div id="slide1" class="lnr lnr-chevron-left"></div>
-          <div id="slide2" class="lnr lnr-chevron-right"></div>
+          <div id="slide1" class="lnr lnr-chevron-left owl0-left"></div>
+          <div id="slide2" class="lnr lnr-chevron-right owl0-right"></div>
         </div>
         <div class="slider_best_inner">
   

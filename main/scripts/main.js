@@ -57,8 +57,8 @@ infinite: false,
 speed: 300,
 slidesToShow: 4,
 slidesToScroll: 1,
-prevArrow:('#slide1'),
-nextArrow:('#slide2'),
+prevArrow:('.owl0-left'),
+nextArrow:('.owl0-right'),
 swipe: false,
 responsive: [
 {

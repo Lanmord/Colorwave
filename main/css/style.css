@@ -984,13 +984,13 @@ textarea {
   color: black;
 }
 #slide2.lnr.lnr-chevron-right{
-  display: inline-block;
+  display: inline-block !important;
   color: rgb(126, 126, 126);
   font-size: 2.5em;   
   transition: .3s;          
 }
 #slide1.lnr.lnr-chevron-left{
-  display: inline-block;
+  display: inline-block !important;
   color: rgb(126, 126, 126);
   font-size: 2.5em;  
   transition: .3s;                  
@@ -1098,13 +1098,13 @@ textarea {
   right: 30px;
 }
 #slide2.lnr.lnr-chevron-left{
-  display: inline-block;
+  display: inline-block !important;
   color: rgb(207, 207, 207);
   font-size: 2.5em;  
   transition: .3s;                  
 }
 #slide3.lnr.lnr-chevron-right{
-  display: inline-block;
+  display: inline-block !important;
   color: rgb(207, 207, 207);
   font-size: 2.5em;  
   transition: .3s;                  
@@ -1369,12 +1369,14 @@ nav{
   display: block;
   transition: .2s;
 }
+#arrows-br.arrows{
+display: none;
+}
 .brands-slider{
  height: 100%;
  width: 200px;
+ display: none !important;
 }
 .flex.brands-cont{
-  margin: 20px 0;
   position: relative;
-  display: none;
 }
