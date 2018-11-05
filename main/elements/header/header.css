@@ -166,7 +166,7 @@ nav{
 }
 .red_line::after{
   content: '';
-  bottom: -19px;
+  bottom: -20px !important;
   left: 0;
   position: absolute;
   z-index: 100;
