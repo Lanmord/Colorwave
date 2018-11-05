@@ -475,9 +475,6 @@
     .hide-brand{
       display: none;
     }
-    .flex.brands-cont{
-      /* display: block !important; */
-    }
     .brands{
       margin: 0 auto;
       padding: 0;
