@@ -47,7 +47,7 @@
             <span class="lnr lnr-chevron-down"></span>
           </li>
 
-          <li><a class="red_line" href="products.php">Продукция</a></li>
+          <li><a class="red_line" href="categories.php">Продукция</a></li>
           <li><a class="red_line" href="#">О нас</a></li>
           <li><a class="red_line" href="#">Статьи</a></li>
           <li><a class="red_line" href="#">Контакты</a></li>
@@ -90,7 +90,7 @@
     <div id="modal-panel" class="modal">
       <div class="modal-wrap wow bounceInRight" data-wow-duration="0.5s">
         <div class="red_tape flex">
-          <h2>Консультация</h2>
+          <h2>Заказать звонок</h2>
         </div>
         <div class="modal-content">
           <span class="closeBtn lnr lnr-cross"></span>
