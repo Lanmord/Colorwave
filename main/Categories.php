@@ -19,7 +19,7 @@
 
   
  <div class="wrapper">
-    <?php include('elements/left-menu/left-menu.php');?>
+    <?php include('elements/left-menu_cate/left-menu_cate.php');?>
   <div class="content">
     <a href="#">
       <img src="img/cate1.png" alt="Лучшие товары">
@@ -29,16 +29,16 @@
       </div>
     </a>
     <a href="#">
-      <img src="img/cate2.png" alt="Картриджи для струйного картриджа">
+      <img src="img/cate2.png" alt="Картриджи для струйного принтера">
       <div>
-      <h3>Картриджи для струйного картриджа</h3>
+      <h3>Картриджи для струйного принтера</h3>
       <span>от 40.00 р.</span>
       </div>
     </a>
     <a href="#">
-    <img src="img/cate3.png" alt="Картриджи для лазерного картриджа">
+    <img src="img/cate3.png" alt="Картриджи для лазерного принтера">
       <div>
-      <h3>Картриджи для лазерного картриджа</h3>
+      <h3>Картриджи для лазерного принтера</h3>
       <span>от 00.00 р.</span>
       </div>
     </a>
