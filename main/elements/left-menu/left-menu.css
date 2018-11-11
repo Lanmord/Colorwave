@@ -191,7 +191,7 @@
   width: 220px;
 }
 /* Меню */
-@media (max-width: 1350px){
+@media (max-width: 1650px){
   .menu-left-wrapper{
     min-width: 350px;
   }
@@ -202,7 +202,7 @@
     padding-left: 30px;
   }
 }
-@media (max-width: 1320px){
+@media (max-width: 1480px){
   .menu-left-wrapper{
     min-width: 300px;
   }
