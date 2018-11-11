@@ -47,7 +47,7 @@
             <span class="lnr lnr-chevron-down"></span>
           </li>
 
-          <li><a class="red_line" href="categories.php">Продукция</a></li>
+          <li><a class="red_line" href="Categories.php">Продукция</a></li>
           <li><a class="red_line" href="#">О нас</a></li>
           <li><a class="red_line" href="#">Статьи</a></li>
           <li><a class="red_line" href="#">Контакты</a></li>

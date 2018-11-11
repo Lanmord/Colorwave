@@ -1,0 +1,46 @@
+.btn_product span{
+  display: block;
+  font-family: 'Myriad Pro';
+  font-size:2.5em;
+  font-weight: 600;
+  margin-bottom: 0.6em;
+}
+.btn_pr{
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-size: 2.5em;
+  color: white;
+  background-color: rgb(230, 28, 25);
+  padding: 10px 35px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: .5s;
+}
+.btn_pr_inner{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-color: rgb(230, 28, 25);
+  opacity: 0;
+  transition: .1s;
+  }
+.btn_pr:hover{
+  
+  background-color: rgb(206, 21, 18);
+}
+.btn_pr_inner.active{
+  opacity: 1;
+  left: 0;
+  right: 0;
+}
+.btn_pr_inner.active:hover{
+  background-color: rgb(206, 21, 18);
+}
