@@ -460,7 +460,7 @@
       <ul class="brands_inner">
         <li id="passive" class="bre1"><img id="active" src="img/brother_active.png" alt="brother logo"></li>
         <li id="passive" class="bre2"><img id="active" src="img/samsung_active.png" alt="sumsung logo"></li>
-        <li id="passive" class="bre3"><img id="active" src="img/Xerox_active.png" alt="Xerox logo"></li>
+        <li id="passive" class="bre3"><img id="active" src="img/xerox_active.png" alt="Xerox logo"></li>
         <li id="passive" class="bre4"><img id="active" src="img/hp_active.png" alt="hp logo"></li>
         <li id="passive" class="bre5"><img id="active" src="img/panasonic_active.png" alt="panasonic logo"></li>
         <li id="passive" class="bre6"><img id="active" src="img/canon_active.png" alt="canon logo"></li>
@@ -474,16 +474,16 @@
         </div>
     <div class="brands flex brands-slider" onselectstart="return false" onmousedown="return false">
       <div class="brands-item">
-        <img id="active" src="img/brother_active.png" alt="brother logo">
-        <img id="active" src="img/samsung_active.png" alt="sumsung logo">
+        <img id="img_bre" src="img/brother_active.png" alt="brother logo">
+        <img id="img_bre" src="img/samsung_active.png" alt="sumsung logo">
       </div>
       <div class="brands-item">
-          <img id="active" src="img/panasonic_active.png" alt="panasonic logo">
-          <img id="active" src="img/canon_active.png" alt="canon logo">
+          <img id="img_bre" src="img/panasonic_active.png" alt="panasonic logo">
+          <img id="img_bre" src="img/canon_active.png" alt="canon logo">
       </div>
       <div class="brands-item">
-          <img id="active" src="img/Xerox_active.png" alt="Xerox logo">
-        <img id="active" src="img/hp_active.png" alt="hp logo">
+          <img id="img_bre" src="img/Xerox_active.png" alt="Xerox logo">
+        <img id="img_bre" src="img/hp_active.png" alt="hp logo">
       </div>
     </div>
   </section>

@@ -618,25 +618,24 @@ nav{
   position: relative;
 }
 .brands{
-  width: 60%;
+  width: 95%;
   max-width: 1920px;
-  height: 400px;
-  padding: 20em 10em;
+  height: 250px;
+  padding: 1em 5em;
 }
 .brands_inner{
   padding: 0;
   display: grid;
   justify-content: center;
   align-content: center;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,80px);
-    grid-gap: 25px;
+    grid-template-columns: 2fr 2fr 2fr 1.1fr 2fr 2fr;
+    grid-template-rows: 120px;
+    column-gap: 50px;
     grid-template-areas: 
-    "bre1 bre2 bre3"
-    "bre4 bre5 bre6";
+    "bre1 bre2 bre3 bre4 bre5 bre6";
 }
 .brands_inner img{
-  opacity: .5;
+  opacity: 1;
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -644,7 +643,7 @@ nav{
   transition: .2s;
 }
 #passive:hover #active{
-  opacity: 1;
+  opacity: .7;
 }
 .bre1{
   grid-area: bre1;
@@ -1368,6 +1367,9 @@ nav{
   object-fit: contain;
   display: block;
   transition: .2s;
+}
+#img_bre:hover{
+  opacity: 1;
 }
 #arrows-br.arrows{
 display: none;

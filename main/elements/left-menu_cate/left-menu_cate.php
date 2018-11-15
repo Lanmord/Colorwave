@@ -77,8 +77,8 @@
       </span>
       <ul id="first_ul">
         
-        <li><a href="services2.php">Картриджи Canon</a></li>
-          <li><a href="services3.php">Картриджи HP</a></li>
+        <li><a href="pr2.php">Картриджи Canon</a></li>
+          <li><a href="pr3.php">Картриджи HP</a></li>
       </ul>
     </li>
     <li><span id="first_sub">

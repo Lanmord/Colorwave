@@ -56,7 +56,9 @@
   margin-top: 5em;
   text-align: center;
 }
-
+span.hidden_span{
+  display: none !important;
+}
 @media (max-width: 1260px){
   .product{
     flex-direction: column;
@@ -113,4 +115,13 @@
  
   font-size: 2.5em;
 }
+}
+@media (max-width: 860px){
+  span.hidden_span{
+    margin-top: 10px !important;
+    display: block !important;
+  }
+  span.span_open{
+    display: none !important;
+  }
 }

@@ -49,18 +49,22 @@
   .logo span{
     display: none;
   }
-}
-@media (max-width: 1340px){
   .slider_news{
     font-size: 0.85em;
+  }
+  .brands{
+    height: 145px;
   }
 }
 @media (max-width: 1140px){
   .logo_panel_inner,
    .slider_img_inner,
    .slider_best,
-   .brands{
+   {
      width: 90%;
+   }
+   .brands{
+     width: 100%;
    }
    .sale,
    .slider_news,
@@ -125,6 +129,18 @@
   }
   .btn_slider{
     font-size: 0.8em;
+  }
+  .brands_inner{
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 120px 120px;
+      column-gap: 50px;
+      grid-template-areas: 
+      "bre1 bre2 bre3"
+      "bre4 bre5 bre6";
+  }
+  .brands{
+ 
+    height: 350px;
   }
 }
 @media (max-width: 660px){
@@ -251,31 +267,12 @@
 } */
 @media (max-width: 700px){
     .brands{
-      padding: 10px;
+      padding: 20px 30px;
+      height: 270px;
     }
     .sale{
       font-size: 0.4em;
     }
-}
-@media (max-width: 430px){
-  .brands{
-    padding: 50px 45px;
-  }
-  .brands{
-    height: auto;
-  }
-  .brands_inner{
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6,80px);
-    grid-row-gap: 10px;
-    grid-template-areas:
-     "bre1"
-     "bre2"
-     "bre3"
-     "bre4"
-     "bre5"
-     "bre6";
-  }
 }
 
 @media (max-width: 480px){
@@ -472,8 +469,11 @@
     }
   }
   @media (max-width: 500px){
+    .brands{
+      height: auto;
+    }
     .hide-brand{
-      display: none;
+      display: none !important;
     }
     .brands{
       margin: 0 auto;
