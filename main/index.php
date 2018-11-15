@@ -482,8 +482,8 @@
           <img id="img_bre" src="img/canon_active.png" alt="canon logo">
       </div>
       <div class="brands-item">
-          <img id="img_bre" src="img/Xerox_active.png" alt="Xerox logo">
-        <img id="img_bre" src="img/hp_active.png" alt="hp logo">
+          <img id="img_bre" src="img/xerox_active.png" alt="Xerox logo">
+        <img id="img_bre" src="img/HP_active.png" alt="hp logo">
       </div>
     </div>
   </section>
