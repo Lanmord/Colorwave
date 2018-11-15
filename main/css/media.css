@@ -59,9 +59,9 @@
 @media (max-width: 1140px){
   .logo_panel_inner,
    .slider_img_inner,
-   .slider_best,
+   .slider_best
    {
-     width: 90%;
+     width: 90% ;
    }
    .brands{
      width: 100%;
