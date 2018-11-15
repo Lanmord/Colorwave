@@ -132,8 +132,8 @@
   }
   .brands_inner{
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 120px 120px;
-      column-gap: 50px;
+      grid-template-rows: 100px 100px;
+      grid-gap: 30px;
       grid-template-areas: 
       "bre1 bre2 bre3"
       "bre4 bre5 bre6";
