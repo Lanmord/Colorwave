@@ -48,8 +48,8 @@
           </li>
 
           <li><a class="red_line" href="Categories.php">Продукция</a></li>
-          <li><a class="red_line" href="#">О нас</a></li>
-          <li><a class="red_line" href="#">Статьи</a></li>
+          <li><a class="red_line" href="AboutUs.php">О нас</a></li>
+          <li><a class="red_line" href="art.php">Статьи</a></li>
           <li><a class="red_line" href="#">Контакты</a></li>
           <li><a class="red_line" href="#" id="feedback">Заказать звонок</a></li>
         </ul>
