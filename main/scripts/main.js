@@ -276,7 +276,7 @@ responsive: [
 	});
 	$('.slider_wrap_inner').slick({
 	  dots:true,
-	  autoplay:false,
+	  autoplay:true,
 	  autoplaySpeed: 5000,
 	  prevArrow:('.prev'),
 	  nextArrow:('.next'),

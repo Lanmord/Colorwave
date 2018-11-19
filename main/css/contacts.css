@@ -34,60 +34,6 @@
 .content h3{
   font-size: 1.7em;
 }
-a.art_btn{
-  font-family: 'Myriad Pro';
-  font-weight: bold;
-  display: inline-block;
-  padding: 10px 30px;
-  color: black;
-  border: solid 3px rgba(0, 0, 0, 0.336);
-  transition: .2s;
-}
-a.art_btn:hover{
-  color: white;
-  background-color: black;
-}
-.content img:hover{
-  outline: 20px solid rgba(255, 255, 255, 0.397);
-}
-.line_grey{
-  margin: 2em auto;
-  height: 1px;
-  background-color: rgba(0, 0, 0, 0.212);
-}
-.nav_art{
-  margin: 2em 0 0 0;
-}
-a.page_btn{
-  font-family: 'Myriad Pro';
-  font-weight: 600;
-  display: inline-block;
-  padding: 15px 20px;
-  color: rgb(116, 136, 150);
-  transition: .2s;
-}
-a.page_btn span{
-display: inline-block;
-}
-a.page_btn:hover{
-  background-color: black;
-}
-a.page_btn.active{
-background-color: black;
-}
-a.page_arrow{
-  margin-left: 5px;
-  padding: 0;
-}
-a.page_arrow:hover{
-  background-color: white;
-}
-#first-line.line_grey{
-  margin: 0 auto 1.8em auto;
-}
-.hiden_h3{
-  display: none;
-}
 @media (max-width: 780px){
 h3.long_h3{
   font-size: 1.2em;
