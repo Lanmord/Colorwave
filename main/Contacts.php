@@ -28,9 +28,9 @@
         <span><span style="color:rgb(238, 34, 29);" > Адрес:</span>&nbsp;&nbsp;Лобанка, 14 (пом. 9-Н)</span>
         <span style="margin-top: 10px !important; display:inline-block;" ><span style="color:rgb(238, 34, 29);" > E-mail:</span>&nbsp;&nbsp;Example@yandex.by</span>
         <span style="color:rgb(238, 34, 29); margin-top: 10px !important; display:inline-block;" >Телефоны:</span>
-        <span>+375 29 <img>560 25 25 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/mts.png" alt="mts" width="15px"></span> 
-        <span>+375 44 <img>560 25 25 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/velcom.png" alt="velcom" width="15px"></span> 
-        <span>+375 17 <img>343 39 62 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/city.png" alt="city" width="15px"></span> 
+        <span>+375 29 <img>560 25<img> 25 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/mts.png" alt="mts" width="15px"></span> 
+        <span>+375 44 <img>560 25<img> 25 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/velcom.png" alt="velcom" width="15px"></span> 
+        <span>+375 17 <img>343 39<img> 62 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/city.png" alt="city" width="15px"></span> 
         <span style="color:rgb(238, 34, 29); margin-top: 10px !important; display:inline-block;" >Время работы:</span>
         <span>ПН - ПТ : с 09.00 до 19.00</span> 
         <span>СБ : с 11.00 до 17.00</span> 
@@ -49,8 +49,8 @@
         <span><span style="color:rgb(238, 34, 29);" > Адрес:</span>&nbsp;&nbsp;ТЦ Глобо (ул.Уманская, 54) </span>
         <span style="margin-top: 10px !important; display:inline-block;" ><span style="color:rgb(238, 34, 29);" > E-mail:</span>&nbsp;&nbsp;Example@yandex.by</span>
         <span style="color:rgb(238, 34, 29); margin-top: 10px !important; display:inline-block;" >Телефоны:</span>
-        <span>+375 44 <img>77 99 710 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/mts.png" alt="mts" width="15px"></span> 
-        <span>+375 29 <img>77 99 710 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/velcom.png" alt="velcom" width="15px"></span> 
+        <span>+375 44 <img>77 99<img> 710 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/mts.png" alt="mts" width="15px"></span> 
+        <span>+375 29 <img>77 99<img> 710 <img onselectstart="return false" onmousedown="return false"  style="margin-left:5px;"src="img/velcom.png" alt="velcom" width="15px"></span> 
         
         <span style="color:rgb(238, 34, 29); margin-top: 10px !important; display:inline-block;" >Время работы:</span>
         <span>ПН - ПТ : с 11.00 до 18.00</span> 

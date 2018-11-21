@@ -1,15 +1,13 @@
 .wrapper{
-  display: inline-block;
-  max-width: 1400px;
+  max-width: 1920px;
+  width: 75%;
   margin: 0 auto;
-  display: flex;
 }
 
 /* конец меню */
 .content{
   width: 100%;
-  font-size: 20px;
-  padding: 0 2.2em 2em 2.8em;
+  padding: 0 0 30px 0px;
   color: #333;
 }
 .content img{
@@ -20,18 +18,20 @@ display: block;
 padding: 10px 0 30px 0;
 }
 .content h2{
+  margin: 20px 0 0 0;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-size: 4em;
   color: black;
-  font-family: 'Raleway';
-  font-weight: 800;
-  font-size: 2em;
 }
 .content h3{
   font-family: 'Myriad Pro';
   font-weight: normal;
   font-weight: 800;
-  font-size: 1.5em;
+  font-size: 3.5em;
 }
 .content p{
+  font-size: 2em;
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,39 +52,54 @@ padding: 10px 0 30px 0;
 .line-red-ab{
   height: 1px;
   width: 100%;
-  margin: 30px auto 30px;
+  margin: 20px auto 30px;
   background-color: rgba(0, 0, 0, 0.274);
 }
 h2.main_h2{
   font-family: 'Myriad Pro';
   font-weight: normal;
 }
-@media (max-width: 1320px){
-  .content{
-    font-size: 1.5em;
+@media (max-width: 1140px){
+  .wrapper{
+   width: 100%;
+   padding: 0 30px;
+  }
+  .contacts_info {
+   margin-right: 30px;
+}
+}
+@media (max-width: 780px){
+  .wrapper{
+    font-size: 0.9em;
+  }
+  .line-red-ab{
+    margin: 10px 0 20px;
+  }
+}
+
+@media (max-width: 600px){
+  .wrapper{
+    font-size: 0.8em;
+    padding: 0 20px;
   }
 }
 @media (max-width: 460px){
-  .content{
-    font-size: 1.3em;
+  .wrapper{
+    font-size: 0.7em;
+    padding: 0 20px;
   }
-  .content h1{
-    font-size: 1.5em;
+  .content {
+    padding: 0px 0px 15px;
+}
+}
+@media (max-width: 420px){
+  .wrapper{
+    font-size: 0.6em;
+    padding: 0 20px;
+  }
+  .content h3{
+    font-size: 3em;
   }
 }
-@media (max-width: 600px){
-  h2.main_h2{
-    font-size: 1.8em;
-    margin: 10px 0 0 0;
-  }
-  .content{
-    padding: 0 20px 10px 20px;
-  }
-  .line-red-ab{
-    height: 1px;
-    width: 100%;
-    margin: 10px auto 10px;
-    background-color: rgba(0, 0, 0, 0.274);
-  }
-}
+
 
