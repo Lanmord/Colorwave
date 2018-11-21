@@ -21,7 +21,7 @@
  <div class="wrapper">
     <?php include('elements/left-menu_cate/left-menu_cate.php');?>
   <div class="content">
-    <a href="#">
+    <a href="pr1.php">
       <img src="img/cate1.png" alt="Лучшие товары">
       <div>
       <h3>Лучшие товары</h3>

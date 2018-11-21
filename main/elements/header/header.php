@@ -68,10 +68,10 @@
             <li><a href="services21.php">Ремонт, ПК, ноутбуков, планшетов</a></li>
             <li><a href="services13.php">Стоимость диагноститки</a></li>
           </ul>
-          <li><a href="products.php">Продукция</a></li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Статьи</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="Categories.php">Продукция</a></li>
+          <li><a href="AboutUs.php">О нас</a></li>
+          <li><a href="art.php">Статьи</a></li>
+          <li><a href="Contacts.php">Контакты</a></li>
         </ul>
       </div>
       <div class="toggle-menu">
@@ -88,7 +88,7 @@
     </nav>
     <!-- МОДАЛЬНОЕ ОКНО -->
     <div id="modal-panel" class="modal">
-      <div class="modal-wrap wow bounceInRight" data-wow-duration="0.5s">
+      <div class="modal-wrap" >
         <div class="red_tape flex">
           <h2>Заказать звонок</h2>
         </div>

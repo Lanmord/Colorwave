@@ -24,8 +24,15 @@
 			$("#phone-place").mask("+375 (99) 999-99-99");
 	 });
 	 
- $("#feedback, .closeBtn").click(function() {
+ $("#feedback, .closeBtn, .cont_btn").click(function() {
 	 
+	$(".modal-wrap").attr("data-wow-duration", "0.5s");
+	$('.modal-wrap').addClass('wow');
+	$('.modal-wrap').addClass('bounceInRight');
+	$('.modal-wrap').addClass('animated');
+	$(".modal-wrap").attr("style", "visibility: visible; animation-duration: 0.5s; animation-name: bounceInRight;");
+
+
  if ($(".modal:visible").size() > 0) {
  
 		 $("#modal-panel").css("display","none");
