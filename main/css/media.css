@@ -53,7 +53,7 @@
     font-size: 0.85em;
   }
   .brands{
-    height: 145px;
+    height: 115px;
   }
 }
 @media (max-width: 1140px){
@@ -140,7 +140,7 @@
   }
   .brands{
  
-    height: 350px;
+    height: 300px;
   }
 }
 @media (max-width: 660px){
@@ -267,8 +267,8 @@
 } */
 @media (max-width: 700px){
     .brands{
-      padding: 20px 30px;
-      height: 270px;
+      padding: 10px 20px 30px 20px;
+      height: 250px;
     }
     .sale{
       font-size: 0.4em;

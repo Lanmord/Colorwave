@@ -134,6 +134,7 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>
+
    $(document).ready(function() {
    $(".menu-left ul").hide();
    $(".menu-left #first_ul").show();
