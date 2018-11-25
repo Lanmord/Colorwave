@@ -577,18 +577,15 @@ textarea {
   transform: scaleX(0);
 } 
 .red_line.callbtn{
+  margin-right: 0;
   background-color: rgb(224, 7, 7);
   color: rgb(255, 255, 255);
-  /* border-radius: 10px; */
   padding: 20px;
   transition: .3s;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 .red_line.callbtn:hover{
   color: white;
-  background-color: rgb(255, 45, 45);
+  background-color: rgb(241, 2, 2);
 }
 @media (max-width: 425px){
   .drop-menu a{
